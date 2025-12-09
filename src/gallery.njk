@@ -1,0 +1,19 @@
+---
+layout: galleryLayout
+title: "Gallery"
+permalink: "/gallery/"
+tags: page
+---
+
+<div class="gallery-container">
+    <h1>Gallery</h1>
+    <div class="masonry-grid" id="gallery">
+        {% for image in gallery.images %}
+            <img src="/assets/images/gallery/{{ image }}"
+                 alt="{{ image | replace('.jpg', '') | replace('.jpeg', '') | replace('.png', '') | replace('.gif', '') | replace('.webp', '') }}" 
+                 loading="lazy" />
+        {% endfor %}
+    </div>
+</div>
+
+<script src="/scripts/resizeGalleryItems.js"></script>

@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
   eleventyConfig.addPassthroughCopy("src/assets/images")
+  eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
     "headers",

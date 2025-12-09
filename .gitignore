@@ -131,3 +131,5 @@ dist
 
 
 _site
+
+*.jpg
