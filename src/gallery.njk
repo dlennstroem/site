@@ -11,14 +11,22 @@ eleventyNavigation:
 <div class="gallery-container">
     {# <h1>Gallery</h1> #}
     <div class="masonry-grid" id="gallery">
-        {% for image in gallery.images %}
+        {% for image in gallery.images | reverse %}
             <figure class="masonry-item">
-                <img src="/assets/images/gallery/{{ image }}"
-                    alt="{{ image | replace('.jpg', '') | replace('.jpeg', '') | replace('.png', '') | replace('.gif', '') | replace('.webp', '') }}" 
-                    loading="lazy" />
+                <button class="lightbox-trigger" data-full="/assets/images/gallery/{{ image }}">
+                    <img src="/assets/images/gallery/{{ image }}"
+                        alt="{{ image | replace('.jpg', '') | replace('.jpeg', '') | replace('.png', '') | replace('.gif', '') | replace('.webp', '') }}" 
+                        loading="lazy" />
+                </button>
             </figure>
         {% endfor %}
     </div>
 </div>
 
+<div class="lightbox", id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" alias-label="Close image">&times;</button>
+    <img class="lightbox-image" alt=""/>
+</div>
+
 <script src="/scripts/resizeGalleryItems.js"></script>
+<script src="/scripts/lightbox.js" defer></script>

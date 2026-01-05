@@ -113,15 +113,17 @@ main:has(.gallery-container) {
 
 .masonry-grid {
   column-count: 3;
-  column-gap: 1.5rem;
+  /* column-gap: 1.5rem; */
+  column-gap: clamp(1.5rem, 4vw, 6rem);
   margin: 0 auto;
   padding: 4vw;
-  max-width: 1400px;
+  max-width: 1600px;
 }
 
 .masonry-item {
   break-inside: avoid;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: clamp(1.5rem, 4vw, 6rem);
 }
 
 .masonry-item img {
@@ -146,7 +148,6 @@ main:has(.gallery-container) {
   }
 }
 
-
 @media (max-width: 480px) {
   .masonry-grid {
     column-count: 1;
@@ -155,4 +156,46 @@ main:has(.gallery-container) {
   .gallery-container h1 {
     font-size: 1.8rem;
   }
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 1000;
+}
+
+
+.lightbox[aria-hidden="false"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox-trigger {
+  all: unset;
+  cursor: zoom-in;
+  display: block;
 }
