@@ -1,5 +1,5 @@
 <nav>
     {%- for item in collections.page -%}
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
+        <a href="{{ item.url }}" {% if item.url == page.url %}class="active"{% endif %}>{{ item.data.title }}</a>
     {%- endfor -%}
 </nav>

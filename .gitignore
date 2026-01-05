@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 
-_site
+_site/
 
 *.jpg

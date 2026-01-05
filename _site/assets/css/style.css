@@ -12,12 +12,13 @@ html {
 }
 
 body {
-  font-family: "Sora", sans-serif;
+  font-family: "Atkinson Hyperlegible Mono", monospace;
 }
 
 
 a {
   text-decoration: none;
+  font-family: "Atkinson Hyperlegible Mono", monospace;
 }
 
 img {
@@ -32,17 +33,32 @@ nav {
 
   height: 3.5rem;
   width: 100%;
-  background-color: black;
-  color: lightgray;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 nav > a {
   display: block;
-  padding: 1rem 2rem;
-  color: lightgray;
+  margin: 1rem 2rem;
+  color: rgb(32, 32, 32);
 }
 nav > a:hover {
-  color: aqua;
+  color: rgb(201, 0, 0);
+}
+
+nav > a.active {
+  border-bottom: 1px solid rgb(32, 32, 32);
+}
+
+ul {
+  list-style-position: inside;
+  list-style: '- ';
+  margin: 1rem 0;
+  margin-left: 1.5rem;
+}
+
+.about-image {
+  margin: 10px 0;
 }
 
 main {
@@ -50,6 +66,7 @@ main {
   margin: 0 auto;
   padding: 3rem 2rem;
   min-height: 100vh;
+  text-align: justify;
 }
 
 main > h1 {
@@ -95,45 +112,33 @@ main:has(.gallery-container) {
 }
 
 .masonry-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 1rem;
-  column-gap: 5rem;
-  grid-auto-rows: 10px;
-  margin: 0 6rem;
-  /* margin-left: 2rem; */
-  /* margin-right: 2rem; */
-  position: relative;
-  /* max-width: 1200px; */
-  /* align-items: start; */
-  /* column-count: 3; */
-  /* column-gap: 1rem; */
-  /* line-height: 0; */
+  column-count: 3;
+  column-gap: 1.5rem;
+  margin: 0 auto;
+  padding: 4vw;
+  max-width: 1400px;
 }
 
-.masonry-grid img {
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+.masonry-item img {
   width: 100%;
-  /* margin-bottom: 1rem; */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  transition: transform 0.3s ease;
   cursor: pointer;
-  height: auto;
-  object-fit: cover;
-  padding: 0 2.5rem;
-  /* margin-bottom: 3rem; */
-  /* margin-left: 2rem; */
-  /* margin-right: 2rem; */
-  /* padding: 0 2rem 2rem 2rem; */
 }
 
-.masonry-grid img:hover {
-  transform: scale(1.05);
+.masonry-item img:hover {
+  transform: scale(1.02);
 }
+
 
 @media (max-width: 768px) {
   .masonry-grid {
-    /* column-count: 2; */
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 1rem
+    column-count: 2;
   }
   .gallery-container h1 {
     font-size: 2rem;
@@ -141,18 +146,10 @@ main:has(.gallery-container) {
   }
 }
 
-/* .gallery-container {
-    padding: 1rem;
-} */
-
-/* .gallery-container h1 {
-  font-size: 2rem;
-} */
 
 @media (max-width: 480px) {
   .masonry-grid {
-    grid-template-columns: 1fr;
-    margin: 0 1rem;
+    column-count: 1;
   }
   
   .gallery-container h1 {
