@@ -6,7 +6,7 @@ permalink: /about/
 html: true
 eleventyNavigation:
     key: about
-    order: 3
+    order: 99
 ---
 
 ![myself](/assets/images/moi.jpg){.about-image}

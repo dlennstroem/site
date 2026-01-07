@@ -13,11 +13,7 @@ module.exports = function(eleventyConfig) {
   
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-
-  module.exports = eleventyConfig => {
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  };
-
+  eleventyConfig.addPlugin(eleventyNavigationPlugin)
 
   const markdownIt = require("markdown-it")
   const markdownItAttrs = require('markdown-it-attrs')

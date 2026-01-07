@@ -1,5 +1,5 @@
 <nav>
-    {%- for item in collections.page -%}
-        <a href="{{ item.url }}" {% if item.url == page.url %}class="active"{% endif %}>{{ item.data.title }}</a>
+    {%- for item in collections.all | eleventyNavigation -%}
+        <a href="{{ item.url }}" {% if item.url == page.url %}class="active"{% endif %}>{{ item.title }}</a>
     {%- endfor -%}
 </nav>
