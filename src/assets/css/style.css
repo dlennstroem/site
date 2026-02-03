@@ -181,6 +181,7 @@ main:has(.gallery-container) {
   column-gap: clamp(1.5rem, 4vw, 6rem);
   margin: 0 auto;
   padding: 4vw;
+  padding-bottom: 0;
   max-width: 1600px;
 }
 
@@ -311,7 +312,7 @@ main:has(.gallery-container) {
 }
 
 footer {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   color: rgb(32,32,32);
   /* padding: 2rem; */
   text-align: center;
