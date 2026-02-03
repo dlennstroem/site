@@ -1,20 +1,20 @@
 ---
 layout: galleryLayout
-title: "gallery"
-permalink: "/gallery/"
+title: "6x17"
+permalink: "/617/"
 tags: page
 eleventyNavigation:
-  key: gallery
-  order: 2
+  key: 6x17
+  order: 3
 ---
 
 <div class="gallery-container">
     {# <h1>Gallery</h1> #}
-    <div class="masonry-grid" id="gallery">
-        {% for image in gallery.images | reverse %}
+    <div class="masonry-grid masonry-pano" id="gallery">
+        {% for image in gallery.pano.images %}
             <figure class="masonry-item">
-                <button class="lightbox-trigger" data-full="/assets/images/gallery/{{ image }}">
-                    <img src="/assets/images/gallery/{{ image }}"
+                <button class="lightbox-trigger" data-full="/assets/images/617/{{ image }}">
+                    <img src="/assets/images/617/{{ image }}"
                         alt="{{ image | replace('.jpg', '') | replace('.jpeg', '') | replace('.png', '') | replace('.gif', '') | replace('.webp', '') }}" 
                         loading="lazy" />
                 </button>

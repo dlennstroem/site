@@ -1,22 +1,33 @@
 const fs = require('fs')
 const path = require('path')
 
-module.exports = function() {
-    const galleryPath = path.join(__dirname, '../assets/images/gallery')
-
+function getImages(dirPath) {
     try {
-        const files = fs.readdirSync(galleryPath)
+        const files = fs.readdirSync(dirPath)
         const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']
 
-        const images = files
+        return files
             .filter(file => {
                 const ext = path.extname(file).toLowerCase()
                 return imageExtensions.includes(ext)
             })
             .sort()
-        return { images }
     } catch (err) {
-        console.error('Error reading gallery directory:', err)
-        return { images: [] }
+        console.error(`Error reading directory ${dirPath}:`, err)
+        return []
+    }
+}
+
+module.exports = function() {
+    const landscapesPath = path.join(__dirname, '../assets/images/landscapes')
+    const panoPath = path.join(__dirname, '../assets/images/617')
+
+    return {
+        landscape: {
+            images: getImages(landscapesPath)
+        },
+        pano: {
+            images: getImages(panoPath)
+        }
     }
 }
