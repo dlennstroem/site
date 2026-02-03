@@ -309,3 +309,48 @@ main:has(.gallery-container) {
     font-size: 2rem;
   }
 }
+
+footer {
+  background-color: #f8f8f8;
+  color: rgb(32,32,32);
+  /* padding: 2rem; */
+  text-align: center;
+  /* margin-top: 3rem; */
+}
+
+.footer-content {
+  max-width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-bar {
+  color: rgb(32,32,32);
+  font-size: 0.9rem;
+}
+
+.footer-socials {
+  margin-bottom: 0;
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-socials a {
+  margin: 0;
+  color: rgb(32,32,32);
+  text-decoration: none;
+}
+
+.footer-socials a:hover {
+  color: rgb(129, 1, 1);
+}
+
+.footer-copyright p {
+  font-size: 0.9rem;
+  margin: 0;
+}
