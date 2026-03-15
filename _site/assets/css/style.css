@@ -274,6 +274,8 @@ main:has(.gallery-container) {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
   cursor: default;
 }
 
