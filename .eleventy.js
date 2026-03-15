@@ -15,17 +15,20 @@ module.exports = function(eleventyConfig) {
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
 
-  const markdownIt = require("markdown-it")
-  const markdownItAttrs = require('markdown-it-attrs')
 
-  const markdownLib = markdownIt({
-    html: true,
-    linkify: true,
-    breaks: true,
-    typographer: true
-  }).use(markdownItAttrs)
+  // Markdown-support:
+  
+  // const markdownIt = require("markdown-it")
+  // const markdownItAttrs = require('markdown-it-attrs')
 
-  eleventyConfig.setLibrary("md", markdownLib)
+  // const markdownLib = markdownIt({
+  //   html: true,
+  //   linkify: true,
+  //   breaks: true,
+  //   typographer: true
+  // }).use(markdownItAttrs)
+
+  // eleventyConfig.setLibrary("md", markdownLib)
 
 
 
