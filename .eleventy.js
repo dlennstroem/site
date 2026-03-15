@@ -36,7 +36,24 @@ module.exports = function(eleventyConfig) {
     return Image.generateHTML(metadata, imageAttributes)
   })
 
-  
+  eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function(src) {
+    let metadata = await Image(src, {
+      widths: [1600],
+      formats: ["jpeg"],
+      urlPath: "/assets/images/optimized/",
+      outputDir: "./_site/assets/images/optimized/",
+      
+      filenameFormat: function (id, src, width, format, options) {
+        const extension = path.extname(src)
+        const name = path.basename(src, extension)
+        return `${name}-${width}w.${format}`
+      }
+    })
+
+    // Return the URL of the last (largest) image in the jpeg array
+    return metadata.jpeg[metadata.jpeg.length - 1].url
+  })
+
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
