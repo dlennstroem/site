@@ -15,14 +15,18 @@ eleventyNavigation:
     {# <h1>Gallery</h1> #}
     <div class="masonry-grid" id="gallery">
         {% for image in gallery.landscape.images | reverse %}
+            {% set imagePath = "src/assets/images/landscapes/" + image %}
+            {% set imageAlt = image | replace(r/\.(jpg|jpeg|png|gif|webp)$/, "") %}
+
             <figure class="masonry-item">
-                {% set imagePath = "src/assets/images/landscapes/" + image %}
-                {% set imageAlt = image | replace('.jpg', '') | replace('.jpeg', '') | replace('.png', '') | replace('.gif', '') | replace('.webp', '') %}
                 <button class="lightbox-trigger" data-full="/assets/images/landscapes/{{ image }}">
                     {# <img src="/assets/images/landscapes/{{ image }}"
                         alt="{{ image | replace('.jpg', '') | replace('.jpeg', '') | replace('.png', '') | replace('.gif', '') | replace('.webp', '') }}" 
                         loading="lazy" /> #}
-                    {% Image imagePath, imageAlt %}
+                    {% optimizedImage 
+                        imagePath, 
+                        imageAlt, 
+                        "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" %}
                 </button>
             </figure>
         {% endfor %}

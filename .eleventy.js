@@ -1,4 +1,6 @@
 const Image = require("@11ty/eleventy-img")
+const path = require("path")
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
   // eleventyConfig.addPassthroughCopy("src/assets/images")
@@ -11,44 +13,33 @@ module.exports = function(eleventyConfig) {
         <p>${subtitle}</p>`
   )
 
-  eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
-    if (!alt) {
-      // throw new Error(`Missing \`alt\` on image from: ${src}`)
-    }
 
-    let stats = await Image(src, {
-      widths: [25, 320, 640, 960, 1200, 1800, 2400, 4000],
+  eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes) {
+    let metadata = await Image(src, {
+      widths: [400, 800, 1200, 1600], // Mobile to Desktop sizes
       formats: ["webp", "jpeg"],
-      urlPath: "/assets/images/",
-      outputDir: "./_site/assets/images/",
+      urlPath: "/assets/images/optimized/",
+      outputDir: "./_site/assets/images/optimized/",
+      filenameFormat: function (id, src, width, format, options) {
+        const extension = path.extname(src);
+        const name = path.basename(src, extension);
+        return `${name}-${width}w.${format}`;
+      }
     })
-    let lowsestSrc = stats["jpeg"][stats["jpeg"].length - 1]
-    const srcset = Object.keys(stats).reduce(
-      (acc, format) => ({
-        ...acc,
-        [format]: stats[format].map(img => img.srcset).join(", ")
-      })
-    )
-
-    const source = `<source type="image/webp" srcset="${srcset["webp"]}">`
-
-    const img = `<img
-      loading="lazy"
-      alt="${alt}"
-      src="${lowsestSrc.url}"
-      sizes="(max-width: 1024) 1024px, 100vw"
-      srcset="${srcset["jpeg"]}"
-      width="${lowsestSrc.width}"
-      height="${lowsestSrc.height}">`
-
-    return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+      style: "width: 100%; height: auto;"
+    }
+    return Image.generateHTML(metadata, imageAttributes)
   })
 
   
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
-
 
   // Markdown-support:
 
@@ -63,11 +54,6 @@ module.exports = function(eleventyConfig) {
   // }).use(markdownItAttrs)
 
   // eleventyConfig.setLibrary("md", markdownLib)
-
-
-
-
-
 
   return {
     dir: {

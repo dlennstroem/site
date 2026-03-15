@@ -206,14 +206,23 @@ main:has(.gallery-container) {
   margin-bottom: clamp(1.5rem, 4vw, 6rem);
 }
 
-.masonry-item img {
+.masonry-item picture img {
   width: 100%;
+  height: auto;
   display: block;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
 
-.masonry-item img:hover {
+.masonry-item button {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  display: block;
+}
+
+.masonry-item button:hover img {
   transform: scale(1.02);
 }
 
