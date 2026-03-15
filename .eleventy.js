@@ -22,15 +22,11 @@ module.exports = function(eleventyConfig) {
       urlPath: "/assets/images/",
       outputDir: "./_site/assets/images/",
     })
-
-    let lowsestSrc = stats["jpeg"][0]
+    let lowsestSrc = stats["jpeg"][stats["jpeg"].length - 1]
     const srcset = Object.keys(stats).reduce(
       (acc, format) => ({
         ...acc,
-        [format]: stats[format].reduce(
-          (_acc, curr) => `${_acc} ${curr.srcset} ,`,
-          ""
-        )
+        [format]: stats[format].map(img => img.srcset).join(", ")
       })
     )
 
