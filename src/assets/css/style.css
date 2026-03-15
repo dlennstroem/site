@@ -7,6 +7,14 @@
   padding: 0;
 }
 
+:root {
+  --color-dark: rgb(32, 32, 32);
+  --color-red: rgb(129, 0, 0);
+  --color-gold: rgb(252, 207, 106);
+  --color-white: rgb(255, 255, 255);
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -47,11 +55,9 @@ main:has(.hero) {
 }
 
 .hero-title {
-  /* font-family: "EB Garamond", serif; */
   font-weight: 100;
-  /* font-style: italic; */
   font-size: 6rem;
-  color: rgb(252, 207, 106);
+  color: var(--color-gold);
   position: absolute;
   top: 37%;
   left: 50%;
@@ -67,7 +73,7 @@ main:has(.hero) {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 0.75rem 2rem;
-  color: white;
+  color: var(--color-white);
   font-size: 2.5em;
   z-index: 10;
   display: inline-block;
@@ -76,7 +82,7 @@ main:has(.hero) {
 
 .hero-button:hover {
   /* background-color: rgb(201, 0, 0); */
-  color: rgb(32, 32, 32);
+  color: var(--color-dark);
 }
 
 @media (max-width: 768px) {
@@ -96,26 +102,27 @@ nav {
 
   height: 3.5rem;
   width: 100%;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: var(--color-white);
+  color: var(--color-dark);
 }
 
 nav > a {
   display: block;
   margin: 1rem 2rem;
-  color: rgb(32, 32, 32);
+  color: var(--color-dark);
 }
 nav > a:hover {
-  color: rgb(129, 0, 0);
+  /* color: rgb(129, 0, 0); */
+  color: var(--color-red);
 }
 
 nav > a.active {
-  border-bottom: 1px solid rgb(32, 32, 32);
+  border-bottom: 1px solid var(--color-dark);
   transition: border-color 0.1s ease;
 }
 
 nav > a.active:hover {
-  border-bottom: 1px solid rgb(129, 0, 0);
+  border-bottom: 1px solid var(--color-red);
 }
 
 ul {
@@ -143,7 +150,7 @@ main > h1 {
 }
 
 footer {
-  background-color: black;
+  /* background-color: black; */
   color: lightgray;
   padding: 2rem;
 }
@@ -178,14 +185,11 @@ main:has(.gallery-container) {
 .gallery-container h1 {
   text-align: center;
   margin: 0 2rem 2rem 2rem; 
-  /* margin-bottom: 2rem; */
   font-size: 2.5rem;
-  color: #333;
 }
 
 .masonry-grid {
   column-count: 3;
-  /* column-gap: 1.5rem; */
   column-gap: clamp(1.5rem, 4vw, 6rem);
   margin: 0 auto;
   padding: 4vw;
@@ -199,7 +203,6 @@ main:has(.gallery-container) {
 
 .masonry-item {
   break-inside: avoid;
-  /* margin-bottom: 1.5rem; */
   margin-bottom: clamp(1.5rem, 4vw, 6rem);
 }
 
@@ -249,6 +252,7 @@ main:has(.gallery-container) {
   pointer-events: none;
   transition: opacity 0.25s ease;
   z-index: 1000;
+  cursor: zoom-out;
 }
 
 
@@ -261,7 +265,7 @@ main:has(.gallery-container) {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
-  cursor: zoom-out;
+  cursor: default;
 }
 
 .lightbox-image {
@@ -280,7 +284,7 @@ main:has(.gallery-container) {
   font-size: 2rem;
   background: none;
   border: none;
-  color: rgb(32, 32, 32);
+  color: var(--color-dark);
   cursor: pointer;
 }
 
@@ -292,7 +296,7 @@ main:has(.gallery-container) {
   font-size: 3rem;
   background: none;
   border: none;
-  color: rgb(32, 32, 32);
+  color: var(--color-dark);
   cursor: pointer;
   padding: 1rem;
   user-select: none;
@@ -332,6 +336,7 @@ main:has(.gallery-container) {
   float: left;
   line-height: 1;
   margin-right: 0.1rem;
+  /* color: rgb(129, 0, 0); */
 }
 
 @media (max-width: 768px) {
@@ -368,12 +373,35 @@ main:has(.gallery-container) {
   }
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 100;
+  font-size: 1rem;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background-color: var(--color-red);
+}
+
 footer {
-  background-color: #ffffff;
-  color: rgb(32,32,32);
-  /* padding: 2rem; */
+  background-color: var(--color-white);
+  color: var(--color-dark);
   text-align: center;
-  /* margin-top: 3rem; */
 }
 
 .footer-content {
@@ -387,7 +415,7 @@ footer {
 }
 
 .footer-bar {
-  color: rgb(32,32,32);
+  color: var(--color-dark);
   font-size: 0.9rem;
 }
 
@@ -400,12 +428,12 @@ footer {
 
 .footer-socials a {
   margin: 0;
-  color: rgb(32,32,32);
+  color: var(--color-dark);
   text-decoration: none;
 }
 
 .footer-socials a:hover {
-  color: rgb(129, 0, 0);
+  color: var(--color-red);
 }
 
 .footer-copyright p {
@@ -415,10 +443,11 @@ footer {
 
 .footer-email p {
   margin: 0;
-  color: rgb(32,32,32);
+  color: var(--color-dark);
   font-size: 0.9rem;
 }
 
+/* Scrape protection */
 div.footer-email > span:nth-child(2) {
 	display: none;
 }
