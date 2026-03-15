@@ -42,6 +42,7 @@ img {
   overflow: hidden;
 }
 
+.hero picture,
 .hero img {
   width: 100%;
   height: 100%;

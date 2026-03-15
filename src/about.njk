@@ -49,10 +49,21 @@ eleventyNavigation:
             <p>All photographs on this site are taken by me and are protected by copyright. If you want to use any of the images, please contact me.</p>
         </div> #}
     </div>
-    <img src="/assets/images/moi.jpg" alt="myself" class="about-image">
+    {# <img src="/assets/images/moi.jpg" alt="myself" class="about-image"> #}
+    {% optimizedImage "src/assets/images/moi.jpg", "myself" , "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"%}
 </div>
 <div class="about-camera-images">
-    <img src="/assets/images/camera/moi-2.jpg" alt="">
+
+    {% for image in gallery.camera.images %}
+        {% set imagePath = "src/assets/images/camera/" + image %}
+        {% set imageAlt = image | replace(r/\.(jpg|jpeg|png|gif|webp)$/, "") %}
+        {% optimizedImage
+            imagePath,
+            imageAlt, 
+            "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+        %}
+    {% endfor%}
+    {# <img src="/assets/images/camera/moi-2.jpg" alt="">
     <img src="/assets/images/camera/chamonix-1.jpg" alt="Chamonix F2 4x5">
-    <img src="/assets/images/camera/chamonix-2.jpg" alt="Chamonix F2 4x5">
+    <img src="/assets/images/camera/chamonix-2.jpg" alt="Chamonix F2 4x5"> #}
 </div>

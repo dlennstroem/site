@@ -3,6 +3,7 @@ const path = require("path")
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
+  eleventyConfig.addPassthroughCopy({"src/assets/favicon": "/"})
   // eleventyConfig.addPassthroughCopy("src/assets/images")
   eleventyConfig.addPassthroughCopy("src/scripts")
 
@@ -21,9 +22,9 @@ module.exports = function(eleventyConfig) {
       urlPath: "/assets/images/optimized/",
       outputDir: "./_site/assets/images/optimized/",
       filenameFormat: function (id, src, width, format, options) {
-        const extension = path.extname(src);
-        const name = path.basename(src, extension);
-        return `${name}-${width}w.${format}`;
+        const extension = path.extname(src)
+        const name = path.basename(src, extension)
+        return `${name}-${width}w.${format}`
       }
     })
     let imageAttributes = {
@@ -42,7 +43,7 @@ module.exports = function(eleventyConfig) {
       formats: ["jpeg"],
       urlPath: "/assets/images/optimized/",
       outputDir: "./_site/assets/images/optimized/",
-      
+
       filenameFormat: function (id, src, width, format, options) {
         const extension = path.extname(src)
         const name = path.basename(src, extension)
@@ -52,6 +53,25 @@ module.exports = function(eleventyConfig) {
 
     // Return the URL of the last (largest) image in the jpeg array
     return metadata.jpeg[metadata.jpeg.length - 1].url
+  })
+
+  eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function(src, alt) {
+    let metadata = await Image(src, {
+      widths: [2000],
+      formats: ["avif", "webp", "jpeg"],
+      urlPath: "/assets/images/optimized/",
+      outputDir: "./_site/assets/images/optimized/",
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes: "100vw", 
+      loading: "eager", 
+      fetchpriority: "high",
+      decoding: "sync",
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
   })
 
 
