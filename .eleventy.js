@@ -3,7 +3,7 @@ const path = require("path")
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
-  eleventyConfig.addPassthroughCopy({"src/assets/favicon": "/"})
+  eleventyConfig.addPassthroughCopy({"src/assets/favicon": "/favicon"})
   // eleventyConfig.addPassthroughCopy("src/assets/images")
   eleventyConfig.addPassthroughCopy("src/scripts")
 

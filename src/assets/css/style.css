@@ -37,6 +37,7 @@ img {
 h2 {
   margin-top: 2rem;
   margin-bottom: 0.75rem;
+  font-weight: 600;
 }
 
 .hero {
@@ -389,6 +390,16 @@ main:has(.gallery-container) {
   .about-camera-images {
     grid-template-columns: 1fr;
   }
+}
+
+.credit {
+  font-size: 0.7rem;
+  color: var(--color-dark);
+  font-style: italic;
+}
+.credit a {
+  color: var(--color-dark);
+  text-decoration: underline;
 }
 
 .back-to-top {

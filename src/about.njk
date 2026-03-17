@@ -56,11 +56,22 @@ eleventyNavigation:
     {% for image in gallery.camera.images %}
         {% set imagePath = "src/assets/images/camera/" + image %}
         {% set imageAlt = image | replace(r/\.(jpg|jpeg|png|gif|webp)$/, "") %}
-        {% optimizedImage
-            imagePath,
-            imageAlt, 
-            "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
-        %}
+        {% if image == "moi-3.jpg" %}
+            <div class="credited-image">
+                {% optimizedImage
+                    imagePath,
+                    imageAlt, 
+                    "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+                %}
+                <p class="credit">Photo by the great <a href="https://www.instagram.com/kevinguerreiromusic" target="_blank" rel="noopener">Kevin Guerreiro</a></p>
+            </div>
+        {% else %}
+            {% optimizedImage
+                imagePath,
+                imageAlt, 
+                "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+            %}
+        {% endif %}
     {% endfor%}
 
 </div>
