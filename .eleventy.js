@@ -15,10 +15,11 @@ module.exports = function(eleventyConfig) {
   )
 
 
-  eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes) {
+  eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes, widths) {
+    widths = widths || [400, 800, 1200, 1600]
     let metadata = await Image(src, {
-      widths: [400, 800, 1200, 1600], // Mobile to Desktop sizes
-      formats: ["webp", "jpeg"],
+      widths: widths,
+      formats: ["avif", "webp", "jpeg"],
       urlPath: "/assets/images/optimized/",
       outputDir: "./_site/assets/images/optimized/",
       filenameFormat: function (id, src, width, format, options) {
@@ -37,13 +38,16 @@ module.exports = function(eleventyConfig) {
     return Image.generateHTML(metadata, imageAttributes)
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function(src) {
+  eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function(src, widths) {
+    widths = widths || [2000]
     let metadata = await Image(src, {
-      widths: [1600],
-      formats: ["jpeg"],
+      widths: widths,
+      formats: ["avif", "webp", "jpeg"],
       urlPath: "/assets/images/optimized/",
       outputDir: "./_site/assets/images/optimized/",
-
+      sharpAvifOptions: {
+        quality: 70
+      },
       filenameFormat: function (id, src, width, format, options) {
         const extension = path.extname(src)
         const name = path.basename(src, extension)
@@ -51,16 +55,20 @@ module.exports = function(eleventyConfig) {
       }
     })
 
-    // Return the URL of the last (largest) image in the jpeg array
-    return metadata.jpeg[metadata.jpeg.length - 1].url
+    if (metadata.avif?.[0]) return metadata.avif[0].url
+    if (metadata.webp?.[0]) return metadata.webp[0].url
+    return metadata.jpeg[0].url
   })
 
   eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function(src, alt) {
     let metadata = await Image(src, {
-      widths: [2000],
+      widths: [2000, 2400],
       formats: ["avif", "webp", "jpeg"],
       urlPath: "/assets/images/optimized/",
       outputDir: "./_site/assets/images/optimized/",
+      sharpAvifOptions: {
+        quality: 70
+      }
     });
 
     let imageAttributes = {
