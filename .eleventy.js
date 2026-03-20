@@ -1,10 +1,10 @@
 const Image = require("@11ty/eleventy-img")
 const path = require("path")
+const fs = require("fs")
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
-  eleventyConfig.addPassthroughCopy({"src/assets/favicon": "/favicon"})
-  // eleventyConfig.addPassthroughCopy("src/assets/images")
+  // eleventyConfig.addPassthroughCopy({"src/assets/favicon": "favicon"})
   eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
@@ -18,22 +18,36 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes, widths) {
     widths = widths || [400, 800, 1200, 1600]
     let metadata = await Image(src, {
-      widths: widths,
+      widths: [...widths, 20],
       formats: ["avif", "webp", "jpeg"],
       urlPath: "/assets/images/optimized/",
       outputDir: "./_site/assets/images/optimized/",
+      sharpAvifOptions: {
+        quality: 70
+      },
       filenameFormat: function (id, src, width, format, options) {
         const extension = path.extname(src)
         const name = path.basename(src, extension)
         return `${name}-${width}w.${format}`
       }
     })
+
+    const primaryImageData = metadata.jpeg[0]
+    const aspectRatio = primaryImageData.width / primaryImageData.height
+
+    // Generate base64 string for the lowest quality image (20px width) for blurred placeholder effect
+    const lowsrc = metadata.jpeg.find(image => image.width === 20)
+    const base64Buffer = fs.readFileSync(lowsrc.outputPath)
+    const bas64String = `data:image/jpeg;base64,${base64Buffer.toString("base64")}`
+
     let imageAttributes = {
       alt,
       sizes,
       loading: "lazy",
       decoding: "async",
-      style: "width: 100%; height: auto;"
+      class: "blur-load",
+      style: `width: 100%; height: auto; aspect-ratio: ${aspectRatio}; background-image: url(${bas64String}); background-size: cover;`, // style for blurred placeholder effect
+      onload: "this.classList.add('loaded')"
     }
     return Image.generateHTML(metadata, imageAttributes)
   })
@@ -106,6 +120,7 @@ module.exports = function(eleventyConfig) {
         data: "_data",
         includes: "_includes",
         layouts: "_layouts",
+        output: "_site"
     }
   }
 }

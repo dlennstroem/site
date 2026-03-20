@@ -195,6 +195,19 @@ main:has(.gallery-container) {
   font-size: 2.5rem;
 }
 
+.blur-load {
+  filter: blur(20px);
+  transition: filter 0.4s ease-in-out;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  overflow: hidden;
+}
+
+.blur-load.loaded {
+  filter: blur(0);
+}
+
 .masonry-grid {
   column-count: 3;
   column-gap: clamp(1.5rem, 4vw, 6rem);
@@ -211,6 +224,8 @@ main:has(.gallery-container) {
 .masonry-item {
   break-inside: avoid;
   margin-bottom: clamp(1.5rem, 4vw, 6rem);
+  overflow: hidden;
+  background-color: #f0f0f0;
 }
 
 .masonry-item picture img {
