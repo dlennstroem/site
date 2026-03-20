@@ -5,7 +5,7 @@ const fs = require("fs")
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
-  // eleventyConfig.addPassthroughCopy({"src/assets/favicon": "favicon"})
+  // eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"})
   eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
