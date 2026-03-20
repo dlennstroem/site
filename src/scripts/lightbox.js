@@ -9,13 +9,20 @@ let currentIdx = 0
 
 function openLightBox(idx) {
   currentIdx = idx
-  lightboxImg.src = triggers[currentIdx].dataset.full
+  const newSrc = triggers[currentIdx].dataset.full
+  lightboxImg.style.opacity = "0" // hide image while loading new one
+
+  lightboxImg.src = newSrc
+  lightboxImg.onload = () => {
+    lightboxImg.style.opacity = "1";
+  }
   lightbox.setAttribute("aria-hidden", "false")
   document.body.style.overflow = "hidden" // prevent background scrolling
 }
 
 function closeLightBox() {
   lightbox.setAttribute("aria-hidden", "true")
+  lightboxImg.style.opacity = "0" // reset opacity for next time
   lightboxImg.src = ""
   document.body.style.overflow = "" // restore scrolling
 }

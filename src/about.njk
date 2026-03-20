@@ -11,29 +11,35 @@ eleventyNavigation:
 
 <div class="about-wrapper">
     <div class="about-content">
-        <p class="dropcap">Hello, I'm David. I like to take photographs in my free time. I try to spend as much time outside as possible, hence its mostly landscape photographs. 
-            The photographs on this site were taken with a variety of cameras. Most of them analog. </p>
-        <p>Most of my photographs are taken around Switzerland. A few are from Scandinavia or further away (From me at least :P). 
-            In my day job, I work as a DevOps Engineer in Switzerland. This site serves two purposes. Firstly, it is meant as a replacement for my old Instagram account, which I do not maintain anymore.
-            I have better ways to spend my time, than doomscrolling through that misbegotten app. The second use, is as a sort of photographic diary for myself to have my favorite shots in one place.
-            There are dedicated tools for this, but I don't care.</p>
+        <p class="dropcap">Hello, I'm David. I like to take photographs in my free time. I try to spend as much time outdoors as possible, so most of my photographs are landscapes. 
+            I work as a DevOps Engineer and find being outside with my camera(s) a great way to balance things. 
+            The photographs on this site were taken with a variety of cameras, most of them analog. Using less CPU-time in my life is nice.</p>
+        <p>The majority of my photographs are taken around Switzerland. A few are from Scandinavia or further away (from me at least :P). 
+            This site serves two purposes. Primarily, it is meant as a replacement for my old Instagram account, which I do not maintain anymore. I have better ways to spend my time than doomscrolling through that misbegotten app. 
+            Friends and family can enjoy my photography here, and everyone else. If you happen to find it. :)
+            The second purpose is to act as a photographic diary, where I keep my favorite shots in one place.
+            There are dedicated tools for this, but I don't care. I will add some metadata to my photographs in the future, but for now you can just enjoy the images as they are. Done is better than perfect.</p>
+        
             
-            
+        <H2>Gear</H2>
         <p>Currently, I use the following kit:</p>
 
         <ul>
-        <li>Chamonix F2 4x5 with the following lenses:</li>
-        <ul>
-            <li>Fujinon 90mm </li>
-            <li> Nikkor 180mm </li> 
-            <li>Nikkor 360mm</li>
-        </ul>
-        <li>Bronica SQ</li>
-        <li>Olympus XA</li>
-        <li>Fujifilm X100F</li>
+        <li>
+            <b>Chamonix F2 4x5</b> with:
+            <ul>
+            <li>Fujinon SW 90mm f8</li>
+            <li>Nikkor W 180mm f5.6</li>
+            <li>Nikkor T*ED 360mm f8</li>
+            </ul>
+        </li>
+        <li><b>Mamiya 7ii</b> with the 80mm f4</li>
+        <li><b>Olympus XA</b></li>
+        <li><b>Fujifilm X100F</b></li>
         </ul>
 
-        <p>A few books I like for various reasons, in no particular order:</p>
+        <H2>Books</H2>
+        <p>A few books I like for various reasons:</p>
 
         <ul>
         <li>The Lord of the Rings, J.R.R. Tolkien</li>
@@ -42,17 +48,34 @@ eleventyNavigation:
         <li>The Complete Robot, Isaac Asimov</li>
         <li>Die Zürcher Bibel</li>
         <li>The Wheel of Time Series, Robert Jordan</li>
+        <li>Mistborn Series, Brandon Sanderson</li>
         <li>Utvandrarna, Vilhelm Moberg</li>
+        <li>Wilhelm Tell, Friedrich Schiller</li>
         </ul>
 
-        {# <div class="about-copyright">
-            <p>All photographs on this site are taken by me and are protected by copyright. If you want to use any of the images, please contact me.</p>
-        </div> #}
     </div>
-    <img src="/assets/images/moi.jpg" alt="myself" class="about-image">
+    {% optimizedImage "src/assets/images/moi.jpg", "myself" , "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"%}
 </div>
 <div class="about-camera-images">
-    <img src="/assets/images/camera/moi-2.jpg" alt="">
-    <img src="/assets/images/camera/chamonix-1.jpg" alt="Chamonix F2 4x5">
-    <img src="/assets/images/camera/chamonix-2.jpg" alt="Chamonix F2 4x5">
+    {% for image in gallery.camera.images %}
+        {% set imagePath = "src/assets/images/camera/" + image %}
+        {% set imageAlt = image | replace(r/\.(jpg|jpeg|png|gif|webp)$/, "") %}
+        {% if image == "moi-3.jpg" %}
+            <div class="credited-image">
+                {% optimizedImage
+                    imagePath,
+                    imageAlt, 
+                    "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+                %}
+                <p class="credit">Photo by the great <a href="https://www.instagram.com/kevinguerreiromusic" target="_blank" rel="noopener">Kevin Guerreiro</a></p>
+            </div>
+        {% else %}
+            {% optimizedImage
+                imagePath,
+                imageAlt, 
+                "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+            %}
+        {% endif %}
+    {% endfor%}
+
 </div>

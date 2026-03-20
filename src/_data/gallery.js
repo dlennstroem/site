@@ -21,6 +21,7 @@ function getImages(dirPath) {
 module.exports = function() {
     const landscapesPath = path.join(__dirname, '../assets/images/landscapes')
     const panoPath = path.join(__dirname, '../assets/images/617')
+    const cameraPath = path.join(__dirname, '../assets/images/camera')
 
     return {
         landscape: {
@@ -28,6 +29,9 @@ module.exports = function() {
         },
         pano: {
             images: getImages(panoPath)
+        },
+        camera: {
+            images: getImages(cameraPath)
         }
     }
 }

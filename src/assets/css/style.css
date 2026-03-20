@@ -14,6 +14,12 @@
   --color-white: rgb(255, 255, 255);
 }
 
+/* @import url('https://fonts.cdnfonts.com/css/tengwar-feanor'); */
+/* @font-face {
+  font-family: 'Tengwar Feanor' sans-serif;
+  src: url('https://fonts.cdnfonts.com/css/tengwar-feanor')
+} */
+
 
 html {
   scroll-behavior: smooth;
@@ -34,6 +40,12 @@ img {
   display: block;
 }
 
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -42,6 +54,7 @@ img {
   overflow: hidden;
 }
 
+.hero picture,
 .hero img {
   width: 100%;
   height: 100%;
@@ -188,6 +201,19 @@ main:has(.gallery-container) {
   font-size: 2.5rem;
 }
 
+.blur-load {
+  filter: blur(20px);
+  transition: filter 0.4s ease-in-out;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  overflow: hidden;
+}
+
+.blur-load.loaded {
+  filter: blur(0);
+}
+
 .masonry-grid {
   column-count: 3;
   column-gap: clamp(1.5rem, 4vw, 6rem);
@@ -204,16 +230,27 @@ main:has(.gallery-container) {
 .masonry-item {
   break-inside: avoid;
   margin-bottom: clamp(1.5rem, 4vw, 6rem);
+  overflow: hidden;
+  background-color: #f0f0f0;
 }
 
-.masonry-item img {
+.masonry-item picture img {
   width: 100%;
+  height: auto;
   display: block;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
 
-.masonry-item img:hover {
+.masonry-item button {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  display: block;
+}
+
+.masonry-item button:hover img {
   transform: scale(1.02);
 }
 
@@ -265,6 +302,8 @@ main:has(.gallery-container) {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
   cursor: default;
 }
 
@@ -332,7 +371,7 @@ main:has(.gallery-container) {
 
 .dropcap::first-letter {
   font-size: 6rem;
-  font-weight: bold;
+  font-weight: 700;
   float: left;
   line-height: 1;
   margin-right: 0.1rem;
@@ -348,17 +387,18 @@ main:has(.gallery-container) {
 
 .about-camera-images {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-auto-rows: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: 300px; */
   gap: 0.25rem;
   margin: 2rem 0;
 }
 
 .about-camera-images img {
   /* width: auto; */
-  
-  object-fit: contain;
-  display: block;
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  /* display: block; */
 }
 
 @media (max-width: 1024px) {
@@ -371,6 +411,16 @@ main:has(.gallery-container) {
   .about-camera-images {
     grid-template-columns: 1fr;
   }
+}
+
+.credit {
+  font-size: 0.7rem;
+  color: var(--color-dark);
+  font-style: italic;
+}
+.credit a {
+  color: var(--color-dark);
+  text-decoration: underline;
 }
 
 .back-to-top {
@@ -450,4 +500,11 @@ footer {
 /* Scrape protection */
 div.footer-email > span:nth-child(2) {
 	display: none;
+}
+
+.tengwar {
+  padding-top: 0.5rem;
+  font-family: 'Tengwar Feanor', sans-serif;
+  font-size: 0.9rem;
+  color: #7f7f7f;
 }
