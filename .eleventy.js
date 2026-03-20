@@ -1,4 +1,5 @@
 const Image = require("@11ty/eleventy-img")
+const faviconsPlugin = require("eleventy-plugin-gen-favicons")
 const path = require("path")
 const fs = require("fs")
 
@@ -114,13 +115,16 @@ module.exports = function(eleventyConfig) {
 
   // eleventyConfig.setLibrary("md", markdownLib)
 
+  eleventyConfig.addPlugin(faviconsPlugin, {})
+
+
   return {
     dir: {
         input: "src",
         data: "_data",
         includes: "_includes",
-        layouts: "_layouts",
-        output: "_site"
+        layouts: "_layouts"
+        // output: "_site"
     }
   }
 }
