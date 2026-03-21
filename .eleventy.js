@@ -6,6 +6,7 @@ const fs = require("fs")
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
   // eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"})
+  
   eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
@@ -14,6 +15,7 @@ module.exports = function(eleventyConfig) {
       `<h1>${title}</h1>
         <p>${subtitle}</p>`
   )
+  eleventyConfig.addPlugin(faviconsPlugin, {})
 
 
   eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes, widths) {
@@ -114,9 +116,6 @@ module.exports = function(eleventyConfig) {
   // }).use(markdownItAttrs)
 
   // eleventyConfig.setLibrary("md", markdownLib)
-
-  eleventyConfig.addPlugin(faviconsPlugin, {})
-
 
   return {
     dir: {
