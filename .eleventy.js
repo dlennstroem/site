@@ -6,7 +6,6 @@ const fs = require("fs")
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
   // eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"})
-  
   eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
@@ -18,30 +17,48 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(faviconsPlugin, {})
 
 
+  const imageOptions = {
+    urlPath: "/assets/images/optimized/",
+    outputDir: "./_site/assets/images/optimized/",
+    cacheOptions: {
+      duration: "1y",
+      directory: ".cache/eleventy-img"
+    }
+  }
+
   eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes, widths) {
-    widths = widths || [400, 800, 1200, 1600]
+    widths = widths || [400, 1200, 1600]
     let metadata = await Image(src, {
-      widths: [...widths, 20],
-      formats: ["avif", "webp", "jpeg"],
-      urlPath: "/assets/images/optimized/",
-      outputDir: "./_site/assets/images/optimized/",
+      ...imageOptions,
+      widths: widths,
+      formats: ["avif", "jpeg"],
+      // urlPath: "/assets/images/optimized/",
+      // outputDir: "./_site/assets/images/optimized/",
       sharpAvifOptions: {
         quality: 70
       },
-      filenameFormat: function (id, src, width, format, options) {
+      filenameFormat: function (id, src, width, format) {
         const extension = path.extname(src)
         const name = path.basename(src, extension)
         return `${name}-${width}w.${format}`
       }
     })
 
+    const placeholder = await Image(src, {
+      ...imageOptions,
+      widths: [20],
+      formats: ["jpeg"],
+      sharpWebpOptions: { quality: 40 }
+    })
+    
     const primaryImageData = metadata.jpeg[0]
     const aspectRatio = primaryImageData.width / primaryImageData.height
 
     // Generate base64 string for the lowest quality image (20px width) for blurred placeholder effect
-    const lowsrc = metadata.jpeg.find(image => image.width === 20)
-    const base64Buffer = fs.readFileSync(lowsrc.outputPath)
-    const bas64String = `data:image/jpeg;base64,${base64Buffer.toString("base64")}`
+    // const lowsrc = metadata.jpeg.find(image => image.width === 20)
+    const base64 = fs.readFileSync(placeholder.jpeg[0].outputPath).toString("base64")
+    const base64String = `data:image/jpeg;base64,${base64}`
+
 
     let imageAttributes = {
       alt,
@@ -49,7 +66,7 @@ module.exports = function(eleventyConfig) {
       loading: "lazy",
       decoding: "async",
       class: "blur-load",
-      style: `width: 100%; height: auto; aspect-ratio: ${aspectRatio}; background-image: url(${bas64String}); background-size: cover;`, // style for blurred placeholder effect
+      style: `width: 100%; height: auto; aspect-ratio: ${aspectRatio}; background-image: url(${base64String}); background-size: cover;`, // style for blurred placeholder effect
       onload: "this.classList.add('loaded')"
     }
     return Image.generateHTML(metadata, imageAttributes)
@@ -58,10 +75,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function(src, widths) {
     widths = widths || [2000]
     let metadata = await Image(src, {
+      ...imageOptions,
       widths: widths,
-      formats: ["avif", "webp", "jpeg"],
-      urlPath: "/assets/images/optimized/",
-      outputDir: "./_site/assets/images/optimized/",
+      formats: ["avif", "jpeg"],
+      // urlPath: "/assets/images/optimized/",
+      // outputDir: "./_site/assets/images/optimized/",
       sharpAvifOptions: {
         quality: 70
       },
@@ -73,16 +91,16 @@ module.exports = function(eleventyConfig) {
     })
 
     if (metadata.avif?.[0]) return metadata.avif[0].url
-    if (metadata.webp?.[0]) return metadata.webp[0].url
     return metadata.jpeg[0].url
   })
 
   eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function(src, alt) {
     let metadata = await Image(src, {
+      ...imageOptions,
       widths: [2000, 2400],
-      formats: ["avif", "webp", "jpeg"],
-      urlPath: "/assets/images/optimized/",
-      outputDir: "./_site/assets/images/optimized/",
+      formats: ["avif", "jpeg"],
+      // urlPath: "/assets/images/optimized/",
+      // outputDir: "./_site/assets/images/optimized/",
       sharpAvifOptions: {
         quality: 70
       }

@@ -46,6 +46,10 @@ h2 {
   font-weight: 700;
 }
 
+b {
+  font-weight: 500;
+}
+
 .hero {
   width: 100%;
   height: 100vh;

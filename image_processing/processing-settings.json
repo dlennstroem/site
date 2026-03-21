@@ -1,0 +1,43 @@
+[
+    {
+        "prefix": "landscape",
+        "widths": [400, 800, 1200, 1600],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "landscapes/",
+        "sharpAvifOptions": {
+            "quality": 70
+        }
+        
+    },
+    {
+        "prefix": "pano",
+        "widths": [600, 1000, 2000],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "617/",
+        "sharpAvifOptions": {
+            "quality": 70
+        }
+    },
+    {
+        "prefix": "hero-image",
+        "widths": [2000, 2400],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "hero-images/",
+        "sharpAvifOptions": {
+            "quality": 70
+        }
+    },
+    {
+        "prefix": "about",
+        "widths": [400, 800, 1200],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "about/"
+    },
+    {
+        "prefix": "moi",
+        "widths": [400, 800, 1200],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "./"
+    }
+    
+]

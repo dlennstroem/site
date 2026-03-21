@@ -17,7 +17,7 @@ eleventyNavigation:
         {% for image in gallery.pano.images %}
             {% set imagePath = "src/assets/images/617/" + image %}
             {% set imageAlt = image | replace(r/\.(jpg|jpeg|webp|avif)$/, "") %}
-            {% set masonryImageWidths = [400, 800, 1200, 1600] %}
+            {% set masonryImageWidths = [400, 800, 1600] %}
             {% set masonrySize = "(max-width: 480px) 100vw, (max-width: 768px) 50vw" %} 
             {% set lightboxImageWidths = [2000] %}    
 
