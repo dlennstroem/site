@@ -1,5 +1,5 @@
 const Image = require("@11ty/eleventy-img")
-const { S3Client, HeadObjectCommand, PutObjectTaggingCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
+const { S3Client, HeadObjectCommand, PutObjectCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
 const dotenv = require("dotenv")
 const fs = require("fs")
 const { get } = require("https")
@@ -9,6 +9,8 @@ dotenv.config({ path: "../.env" })
 
 const INPUT_DIR = "../images"
 const OUTPUT_DIR = "images_optimized"
+const IMAGE_MANIFEST = {}
+const IMAGE_BASE_URL = "https://s3.dalen.ch/"
 
 const client = new S3Client({
     region: "auto",
@@ -47,7 +49,7 @@ async function existsInR2(key) {
 
 async function uploadToR2(filePath, key) {
     const fileContent = fs.readFileSync(filePath)
-    await client.send(new PutObjectTaggingCommand({
+    await client.send(new PutObjectCommand({
         Bucket: BUCKET,
         Key: key,
         Body: fileContent,
@@ -100,15 +102,28 @@ async function processImage(src, imageOptions) {
     console.log(`Processed ${src}`)
 }
 
+
 async function processImageSet(imageSet, allKeysInR2) {
     const imagePath = path.join(INPUT_DIR, imageSet.relativePath)
     const imagesToBeProcessed = []
+    IMAGE_MANIFEST[imageSet.prefix] = {}
+    
     for (const file of fs.readdirSync(imagePath)) {
         const baseName = path.parse(file).name
+        IMAGE_MANIFEST[imageSet.prefix][baseName] = { 
+            "name": baseName, 
+            "alt": `${baseName} in Gallery: ${imageSet.prefix}`,
+            "urls": {},
+            "sizes": imageSet.sizes
+        }
 
-        for (const width of imageSet.widths) {
-            for (const format of ["avif", "jpeg"]) {
+        for (const format of ["avif", "jpeg"]) {
+            IMAGE_MANIFEST[imageSet.prefix][baseName].urls[format] = []
+            for (const width of imageSet.widths) {    
                 const processedFileName = `${baseName}-${width}w.${format}`
+
+                IMAGE_MANIFEST[imageSet.prefix][baseName].urls[format].push(`${IMAGE_BASE_URL}${processedFileName} ${width}w`)
+
                 if (allKeysInR2.includes(processedFileName)) {
                     console.log(`Skipping ${processedFileName} as it already exists in R2`)
                     continue
@@ -136,10 +151,19 @@ async function run() {
     const allKeysInR2 = await getAllKeysInR2()
 
     for (const imageSet of processingSettings) {
+        // imageManifest[imageSet.prefix] = {}
         await processImageSet(imageSet, allKeysInR2)
 
     }
     await uploadOptimizedImagesToR2(allKeysInR2)
+
+    fs.writeFile("../src/_data/imageManifest.json", JSON.stringify(IMAGE_MANIFEST, null, 2), (err) => {
+        if (err) {
+            console.error("Error writing image manifest:", err)
+        } else {
+            console.log("Image manifest written successfully")
+        }
+    })
 }
 
 run()

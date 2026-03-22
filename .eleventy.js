@@ -117,6 +117,17 @@ module.exports = function(eleventyConfig) {
     return Image.generateHTML(metadata, imageAttributes);
   })
 
+  // eleventyConfig.addNunjucksAsyncShortcode("galleryImage", function(name, alt, sizes, galleryPrefix) {
+  //     const base = `https://s3.dalen.ch/${name}`
+
+  //     const processingSettings = require("./image_processing/processing-settings.json")
+
+  //     return `
+  //     <picture>
+
+  //     </picture>
+  //     `
+  // })
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
