@@ -139,3 +139,8 @@ _site/about/index.html
 images/
 
 .env
+
+*.avif
+*.webp
+*.jpeg
+*.jpg

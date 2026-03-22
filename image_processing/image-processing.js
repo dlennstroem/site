@@ -1,13 +1,14 @@
 const Image = require("@11ty/eleventy-img")
-const { S3Client, HeadObjectCommand, PutObjectTaggingCommand } = require("@aws-sdk/client-s3")
+const { S3Client, HeadObjectCommand, PutObjectTaggingCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
 const dotenv = require("dotenv")
 const fs = require("fs")
+const { get } = require("https")
 const path = require("path")
 
-dotenv.config()
+dotenv.config({ path: "../.env" })
 
-const inputDir = "../images"
-const outputDir = "images_optimized"
+const INPUT_DIR = "../images"
+const OUTPUT_DIR = "images_optimized"
 
 const client = new S3Client({
     region: "auto",
@@ -20,6 +21,20 @@ const client = new S3Client({
 
 const BUCKET = "dalen"
 
+async function getAllKeysInR2() {
+    const allKeys = []
+
+    const paginator = paginateListObjectsV2(
+        { client, pageSize: 1000 },
+        { Bucket: BUCKET }
+    )
+    for await (const page of paginator) {
+        const keys = page.Contents?.map((item) => item.Key) || []
+        allKeys.push(...keys)
+    }
+    return allKeys
+}
+
 async function existsInR2(key) {
     try {
         await client.send(new HeadObjectCommand({ Bucket: BUCKET, Key: key }))
@@ -28,10 +43,6 @@ async function existsInR2(key) {
         if (err.name === "NotFound") return false
         throw err
     }
-}
-
-function constructImageName(img) {
-    return `${img.name}-${img.width}w.${img.format}`
 }
 
 async function uploadToR2(filePath, key) {
@@ -44,17 +55,12 @@ async function uploadToR2(filePath, key) {
     console.log(`Uploaded ${key} to R2`)
 }
 
-async function processImage(file) {
-    const src = path.join(inputDir, file)
+async function processImage(src, imageOptions) {
 
     await Image(src, {
-        widths: [400, 1200, 1600],
-        formats: ["avif", "jpeg"],
-        outputDir,
-        urlPath: outputDir,
-        sharpAvifOptions: {
-            quality: 70
-        },
+        ...imageOptions,
+        outputDir: OUTPUT_DIR,
+        urlPath: OUTPUT_DIR,
         filenameFormat(id, src, width, format) {
             const extension = path.extname(src)
             const name = path.basename(src, extension)
@@ -66,32 +72,56 @@ async function processImage(file) {
     await Image(src, {
         widths: [20],
         formats: ["jpeg"],
-        outputDir,
-        urlPath: outputDir,
+        outputDir: OUTPUT_DIR,
+        urlPath: OUTPUT_DIR,
         sharpJpegOptions: {
             quality: 40
         },
         filenameFormat(id, src, width, format) {
             const extension = path.extname(src)
             const name = path.basename(src, extension)
-            return `${name}-placeholder.${format}`
+            return `${name}-${width}w.${format}`
         }
     })
-    console.log(`Processed ${file}`)
+    console.log(`Processed ${src}`)
 }
+
+// getAllKeysInR2().then(keys => console.log(keys)).catch(err => console.error("Error fetching keys from R2:", err))
 
 async function run() {
-    const widths = [400, 1200, 1600]
-    const files = fs.readdirSync(inputDir)
+    const processingSettings = require("./processing-settings.json")
 
-    for (const f of files) {
+    const allKeysInR2 = await getAllKeysInR2()
 
-    }
+    for (const imageSet of processingSettings) {
+        const imagePath = path.join(INPUT_DIR, imageSet.relativePath)
+        const imagesToBeProcessed = []
+        for (const file of fs.readdirSync(imagePath)) {
+            const baseName = path.parse(file).name
 
-    for (const f of files) {
-        if (!f.match(/\.(jpg|jpeg|png)$/)) continue
-        await processImage(f)
+            for (const width of imageSet.widths) {
+                for (const format of ["avif", "jpeg"]) {
+                    const processedFileName = `${baseName}-${width}w.${format}`
+                    if (allKeysInR2.includes(processedFileName)) {
+                        console.log(`Skipping ${processedFileName} as it already exists in R2`)
+                        continue
+                    } else {
+                        if (!imagesToBeProcessed.includes(file)) imagesToBeProcessed.push(file)
+                    }
+                }
+            }
+
+        }
+        for (const file of imagesToBeProcessed) {
+            await processImage(path.join(imagePath, file), {
+                widths: imageSet.widths,
+                formats: imageSet.formats,
+                sharpAvifOptions: imageSet.sharpAvifOptions,
+            })
+
+        }
+
     }
 }
 
-// run()
+run()

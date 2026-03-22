@@ -6,8 +6,8 @@
         "relativePath": "landscapes/",
         "sharpAvifOptions": {
             "quality": 70
-        }
-        
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
     },
     {
         "prefix": "pano",
@@ -16,7 +16,8 @@
         "relativePath": "617/",
         "sharpAvifOptions": {
             "quality": 70
-        }
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
     },
     {
         "prefix": "hero-image",
@@ -25,19 +26,28 @@
         "relativePath": "hero-images/",
         "sharpAvifOptions": {
             "quality": 70
-        }
+        },
+        "sizes": "100vw"
     },
     {
         "prefix": "about",
         "widths": [400, 800, 1200],
         "formats": ["avif", "jpeg"],
-        "relativePath": "about/"
+        "relativePath": "about/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
     },
     {
-        "prefix": "moi",
+        "prefix": "self",
         "widths": [400, 800, 1200],
         "formats": ["avif", "jpeg"],
-        "relativePath": "./"
+        "relativePath": "self/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
     }
     
 ]
