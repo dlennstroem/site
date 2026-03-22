@@ -55,6 +55,20 @@ async function uploadToR2(filePath, key) {
     console.log(`Uploaded ${key} to R2`)
 }
 
+async function uploadOptimizedImagesToR2(allKeysInR2) {
+    const optimizedDir = path.join(__dirname, OUTPUT_DIR)
+    for (const file of fs.readdirSync(optimizedDir)) {
+        const key = file
+
+        // check if processed image already exists in R2 before uploading - there may have been a change in settings, hence the second check for individual files and not just root files
+        if (allKeysInR2.includes(key)) {
+            console.log(`Skipping ${key} as it already exists in R2`)
+            continue
+        }
+        await uploadToR2(path.join(optimizedDir, file), key)
+    }
+}
+
 async function processImage(src, imageOptions) {
 
     await Image(src, {
@@ -86,6 +100,34 @@ async function processImage(src, imageOptions) {
     console.log(`Processed ${src}`)
 }
 
+async function processImageSet(imageSet, allKeysInR2) {
+    const imagePath = path.join(INPUT_DIR, imageSet.relativePath)
+    const imagesToBeProcessed = []
+    for (const file of fs.readdirSync(imagePath)) {
+        const baseName = path.parse(file).name
+
+        for (const width of imageSet.widths) {
+            for (const format of ["avif", "jpeg"]) {
+                const processedFileName = `${baseName}-${width}w.${format}`
+                if (allKeysInR2.includes(processedFileName)) {
+                    console.log(`Skipping ${processedFileName} as it already exists in R2`)
+                    continue
+                } else {
+                    if (!imagesToBeProcessed.includes(file)) imagesToBeProcessed.push(file)
+                }
+            }
+        }
+    }
+    for (const file of imagesToBeProcessed) {
+        await processImage(path.join(imagePath, file), {
+            widths: imageSet.widths,
+            formats: imageSet.formats,
+            sharpAvifOptions: imageSet.sharpAvifOptions,
+        })
+
+    }
+}
+
 // getAllKeysInR2().then(keys => console.log(keys)).catch(err => console.error("Error fetching keys from R2:", err))
 
 async function run() {
@@ -94,34 +136,10 @@ async function run() {
     const allKeysInR2 = await getAllKeysInR2()
 
     for (const imageSet of processingSettings) {
-        const imagePath = path.join(INPUT_DIR, imageSet.relativePath)
-        const imagesToBeProcessed = []
-        for (const file of fs.readdirSync(imagePath)) {
-            const baseName = path.parse(file).name
-
-            for (const width of imageSet.widths) {
-                for (const format of ["avif", "jpeg"]) {
-                    const processedFileName = `${baseName}-${width}w.${format}`
-                    if (allKeysInR2.includes(processedFileName)) {
-                        console.log(`Skipping ${processedFileName} as it already exists in R2`)
-                        continue
-                    } else {
-                        if (!imagesToBeProcessed.includes(file)) imagesToBeProcessed.push(file)
-                    }
-                }
-            }
-
-        }
-        for (const file of imagesToBeProcessed) {
-            await processImage(path.join(imagePath, file), {
-                widths: imageSet.widths,
-                formats: imageSet.formats,
-                sharpAvifOptions: imageSet.sharpAvifOptions,
-            })
-
-        }
+        await processImageSet(imageSet, allKeysInR2)
 
     }
+    await uploadOptimizedImagesToR2(allKeysInR2)
 }
 
 run()
