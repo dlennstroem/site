@@ -2,15 +2,17 @@ const Image = require("@11ty/eleventy-img")
 const faviconsPlugin = require("eleventy-plugin-gen-favicons")
 const path = require("path")
 const fs = require("fs")
+const imageManifest = require("_data/imageManifest.json")
+const s3Url = "https://s3.dalen.ch/"
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
   // eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"})
   eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
     "headers",
-    (title, subtitle) => 
+    (title, subtitle) =>
       `<h1>${title}</h1>
         <p>${subtitle}</p>`
   )
@@ -26,7 +28,7 @@ module.exports = function(eleventyConfig) {
     }
   }
 
-  eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes, widths) {
+  eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function (src, alt, sizes, widths) {
     widths = widths || [400, 1200, 1600]
     let metadata = await Image(src, {
       ...imageOptions,
@@ -50,7 +52,7 @@ module.exports = function(eleventyConfig) {
       formats: ["jpeg"],
       sharpWebpOptions: { quality: 40 }
     })
-    
+
     const primaryImageData = metadata.jpeg[0]
     const aspectRatio = primaryImageData.width / primaryImageData.height
 
@@ -72,7 +74,7 @@ module.exports = function(eleventyConfig) {
     return Image.generateHTML(metadata, imageAttributes)
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function(src, widths) {
+  eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function (src, widths) {
     widths = widths || [2000]
     let metadata = await Image(src, {
       ...imageOptions,
@@ -94,7 +96,7 @@ module.exports = function(eleventyConfig) {
     return metadata.jpeg[0].url
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function(src, alt) {
+  eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function (src, alt) {
     let metadata = await Image(src, {
       ...imageOptions,
       widths: [2000, 2400],
@@ -108,8 +110,8 @@ module.exports = function(eleventyConfig) {
 
     let imageAttributes = {
       alt,
-      sizes: "100vw", 
-      loading: "eager", 
+      sizes: "100vw",
+      loading: "eager",
       fetchpriority: "high",
       decoding: "sync",
     };
@@ -117,17 +119,39 @@ module.exports = function(eleventyConfig) {
     return Image.generateHTML(metadata, imageAttributes);
   })
 
-  // eleventyConfig.addNunjucksAsyncShortcode("galleryImage", function(name, alt, sizes, galleryPrefix) {
-  //     const base = `https://s3.dalen.ch/${name}`
+  eleventyConfig.addNunjucksAsyncShortcode("galleryImage", async function (name, galleryPrefix) {
 
-  //     const processingSettings = require("./image_processing/processing-settings.json")
+    const imageData = imageManifest[galleryPrefix][name]
+    if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
 
-  //     return `
-  //     <picture>
+    // TODO: Create srcsets dynamically based on available formats and widths in the manifest
+    const avifSrcSet = imageData.urls.avif.join(",\n  ")
+    const jpegSrcSet = imageData.urls.jpeg.join(",\n  ")
+    const sizes = imageData.sizes || "100vw"
 
-  //     </picture>
-  //     `
-  // })
+    // TODO: Add placeholder image if not found
+    const placeholderUrl = `${s3Url}/${name}-20w.jpeg`
+    return `
+      <picture class="blur-load" style="background-image: url('${placeholderUrl}'); background-size: cover;" onload="this.classList.add('loaded')">
+        <source type="image/avif" srcset="${avifSrcSet}" sizes="${sizes}">
+        <source type="image/jpeg" srcset="${jpegSrcSet}" sizes="${sizes}">
+        <img src="${imageData.urls.jpeg[0].split(" ")[0]}" 
+            alt="${imageData.alt}" 
+            loading="lazy" 
+            decoding="async" 
+            class="gallery-image" 
+            style="width: 
+            100%; height: auto;">
+      </picture>
+      `
+  })
+
+  eleventyConfig.addNunjucksAsyncShortcode("getLightboxImage", async function(name, galleryPrefix) {
+    const imageData = imageManifest[galleryPrefix][name]
+    if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
+      
+    return String(imageData.urls.jpeg[imageData.urls.jpeg - 1]).split(/\s+/)[0]
+  })
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
@@ -148,11 +172,11 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-        input: "src",
-        data: "_data",
-        includes: "_includes",
-        layouts: "_layouts"
-        // output: "_site"
+      input: "src",
+      data: "_data",
+      includes: "_includes",
+      layouts: "_layouts"
+      // output: "_site"
     }
   }
 }

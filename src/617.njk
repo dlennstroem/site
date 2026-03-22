@@ -12,22 +12,11 @@ eleventyNavigation:
     <p>Sometimes, I shoot panos. They don't fit in the regular gallery grid, hence the separate page.</p>
 </div>
 <div class="gallery-container">
-    {# <h1>Gallery</h1> #}
     <div class="masonry-grid masonry-pano" id="gallery">
         {% for image in gallery.pano.images %}
-            {% set imagePath = "src/assets/images/617/" + image %}
-            {% set imageAlt = image | replace(r/\.(jpg|jpeg|webp|avif)$/, "") %}
-            {% set masonryImageWidths = [400, 800, 1600] %}
-            {% set masonrySize = "(max-width: 480px) 100vw, (max-width: 768px) 50vw" %} 
-            {% set lightboxImageWidths = [2000] %}    
-
             <figure class="masonry-item">
-                <button class="lightbox-trigger" data-full="{% getOptimizedUrl imagePath, lightboxImageWidths %}">
-                    {% optimizedImage 
-                        imagePath, 
-                        imageAlt, 
-                        masonrySize, 
-                        masonryImageWidths %}
+                <button class="lightbox-trigger" data-full="{% getLightboxImage  image, 'pano' %}">
+                    {% galleryImage image, 'pano' %}
                 </button>
             </figure>
         {% endfor %}

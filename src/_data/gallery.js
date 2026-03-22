@@ -18,6 +18,7 @@ function getImages(dirPath) {
     }
 }
 
+// TODO: Start migration
 module.exports = function() {
     const landscapesPath = path.join(__dirname, '../assets/images/landscapes')
     const panoPath = path.join(__dirname, '../assets/images/617')
