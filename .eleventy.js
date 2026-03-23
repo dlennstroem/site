@@ -1,7 +1,4 @@
-const Image = require("@11ty/eleventy-img")
 const faviconsPlugin = require("eleventy-plugin-gen-favicons")
-const path = require("path")
-const fs = require("fs")
 const imageManifest = require("./src/_data/imageManifest.json")
 const s3Url = "https://s3.dalen.ch/"
 
@@ -28,9 +25,8 @@ module.exports = function (eleventyConfig) {
     const sizes = imageData.sizes || "100vw"
 
     // TODO: Add placeholder image if not found
-    // const placeholderUrl = `${s3Url}/${name}-20w.jpeg`
     return `
-      <picture class="">
+      <picture class="hero-image">
         <source type="image/avif" srcset="${avifSrcSet}" sizes="${sizes}">
         <source type="image/jpeg" srcset="${jpegSrcSet}" sizes="${sizes}">
         <img src="${imageData.urls.jpeg[0].split(" ")[0]}" 
@@ -57,7 +53,7 @@ module.exports = function (eleventyConfig) {
     // TODO: Add placeholder image if not found
     const placeholderUrl = `${s3Url}${name}-20w.jpeg`
     return `
-      <picture class="blur-load" style="background-image: url('${placeholderUrl}');">
+      <picture class="blur-load ${galleryPrefix}" style="background-image: url('${placeholderUrl}');">
         <source type="image/avif" srcset="${avifSrcSet}" sizes="${sizes}">
         <source type="image/jpeg" srcset="${jpegSrcSet}" sizes="${sizes}">
         <img src="${imageData.urls.jpeg[0].split(" ")[0]}" 
@@ -86,7 +82,6 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.width - a.width)[0]
 
     return largest.url
-    // return String(imageData.urls.jpeg[imageData.urls.jpeg.length - 1]).split(/\s+/)[0]
   })
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")

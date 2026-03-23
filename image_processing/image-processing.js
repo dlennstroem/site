@@ -1,8 +1,7 @@
 const Image = require("@11ty/eleventy-img")
-const { S3Client, HeadObjectCommand, PutObjectCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
+const { S3Client, PutObjectCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
 const dotenv = require("dotenv")
 const fs = require("fs")
-const { get } = require("https")
 const path = require("path")
 
 dotenv.config({ path: "../.env" })
@@ -132,8 +131,6 @@ async function processImageSet(imageSet, allKeysInR2) {
 
     }
 }
-
-// getAllKeysInR2().then(keys => console.log(keys)).catch(err => console.error("Error fetching keys from R2:", err))
 
 async function run() {
     const processingSettings = require("./processing-settings.json")
