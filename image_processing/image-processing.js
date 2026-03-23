@@ -37,16 +37,6 @@ async function getAllKeysInR2() {
     return allKeys
 }
 
-async function existsInR2(key) {
-    try {
-        await client.send(new HeadObjectCommand({ Bucket: BUCKET, Key: key }))
-        return true
-    } catch (err) {
-        if (err.name === "NotFound") return false
-        throw err
-    }
-}
-
 async function uploadToR2(filePath, key) {
     const fileContent = fs.readFileSync(filePath)
     await client.send(new PutObjectCommand({

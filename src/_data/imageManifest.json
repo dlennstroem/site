@@ -1991,12 +1991,12 @@
         "avif": [
           "https://s3.dalen.ch/about-1-400w.avif 400w",
           "https://s3.dalen.ch/about-1-800w.avif 800w",
-          "https://s3.dalen.ch/about-1-1200w.avif 1200w"
+          "https://s3.dalen.ch/about-1-1000w.avif 1000w"
         ],
         "jpeg": [
           "https://s3.dalen.ch/about-1-400w.jpeg 400w",
           "https://s3.dalen.ch/about-1-800w.jpeg 800w",
-          "https://s3.dalen.ch/about-1-1200w.jpeg 1200w"
+          "https://s3.dalen.ch/about-1-1000w.jpeg 1000w"
         ]
       },
       "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -2008,12 +2008,12 @@
         "avif": [
           "https://s3.dalen.ch/about-2-400w.avif 400w",
           "https://s3.dalen.ch/about-2-800w.avif 800w",
-          "https://s3.dalen.ch/about-2-1200w.avif 1200w"
+          "https://s3.dalen.ch/about-2-1000w.avif 1000w"
         ],
         "jpeg": [
           "https://s3.dalen.ch/about-2-400w.jpeg 400w",
           "https://s3.dalen.ch/about-2-800w.jpeg 800w",
-          "https://s3.dalen.ch/about-2-1200w.jpeg 1200w"
+          "https://s3.dalen.ch/about-2-1000w.jpeg 1000w"
         ]
       },
       "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -2025,12 +2025,12 @@
         "avif": [
           "https://s3.dalen.ch/about-3-400w.avif 400w",
           "https://s3.dalen.ch/about-3-800w.avif 800w",
-          "https://s3.dalen.ch/about-3-1200w.avif 1200w"
+          "https://s3.dalen.ch/about-3-1000w.avif 1000w"
         ],
         "jpeg": [
           "https://s3.dalen.ch/about-3-400w.jpeg 400w",
           "https://s3.dalen.ch/about-3-800w.jpeg 800w",
-          "https://s3.dalen.ch/about-3-1200w.jpeg 1200w"
+          "https://s3.dalen.ch/about-3-1000w.jpeg 1000w"
         ]
       },
       "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"

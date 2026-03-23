@@ -31,7 +31,7 @@
     },
     {
         "prefix": "about",
-        "widths": [400, 800, 1200],
+        "widths": [400, 800, 1000],
         "formats": ["avif", "jpeg"],
         "relativePath": "about/",
         "sharpAvifOptions": {

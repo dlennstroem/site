@@ -1,10 +1,11 @@
 const fs = require('fs')
 const path = require('path')
+const imageManifest = require('../_data/imageManifest.json')
 
 function getImages(dirPath) {
     try {
         const files = fs.readdirSync(dirPath)
-        const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']
+        const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.avif']
 
         return files
             .filter(file => {
@@ -20,19 +21,22 @@ function getImages(dirPath) {
 
 // TODO: Start migration
 module.exports = function() {
-    const landscapesPath = path.join(__dirname, '../assets/images/landscapes')
-    const panoPath = path.join(__dirname, '../assets/images/617')
-    const cameraPath = path.join(__dirname, '../assets/images/camera')
+    // const landscapesPath = path.join(__dirname, '../assets/images/landscapes')
+    // const panoPath = path.join(__dirname, '../assets/images/617')
+    // const cameraPath = path.join(__dirname, '../assets/images/camera')
 
     return {
         landscape: {
-            images: getImages(landscapesPath)
+            // images: getImages(landscapesPath)
+            images: Object.keys(imageManifest.landscape)
         },
         pano: {
-            images: getImages(panoPath)
+            // images: getImages(panoPath)
+            images: Object.keys(imageManifest.pano)
         },
-        camera: {
-            images: getImages(cameraPath)
+        about: {
+            // images: getImages(cameraPath)
+            images: Object.keys(imageManifest.about)
         }
     }
 }

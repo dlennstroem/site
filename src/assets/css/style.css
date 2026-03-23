@@ -14,13 +14,6 @@
   --color-white: rgb(255, 255, 255);
 }
 
-/* @import url('https://fonts.cdnfonts.com/css/tengwar-feanor'); */
-/* @font-face {
-  font-family: 'Tengwar Feanor' sans-serif;
-  src: url('https://fonts.cdnfonts.com/css/tengwar-feanor')
-} */
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -206,17 +199,41 @@ main:has(.gallery-container) {
 }
 
 .blur-load {
-  filter: blur(20px);
-  transition: filter 0.4s ease-in-out;
-  background-repeat: no-repeat;
-  display: block;
+  /* filter: blur(20px); */
+  position: relative;
+  background-size: cover;
   background-position: center;
   overflow: hidden;
+  /* transition: filter 0.4s ease-in-out;
+  background-repeat: no-repeat;
+  display: block; */
+
 }
 
-.blur-load.loaded {
-  filter: blur(0);
+.blur-load::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  background-size: cover;
+  filter: blur(20px);
+  transform: scale(1.1);
+  transition: filter 0.4s ease;
 }
+
+.blur-load.loaded::before {
+  opacity: 0;
+}
+
+.blur-load img {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+/* .blur-load.loaded {
+  filter: blur(0);
+} */
 
 .masonry-grid {
   column-count: 3;
@@ -400,7 +417,7 @@ main:has(.gallery-container) {
 .about-camera-images img {
   /* width: auto; */
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   /* object-fit: contain; */
   /* display: block; */
 }
