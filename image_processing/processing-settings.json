@@ -1,0 +1,53 @@
+[
+    {
+        "prefix": "landscape",
+        "widths": [400, 800, 1200, 1600],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "landscapes/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+    },
+    {
+        "prefix": "pano",
+        "widths": [600, 1000, 2000],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "617/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+    },
+    {
+        "prefix": "hero-image",
+        "widths": [2000, 2400],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "hero-images/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "100vw"
+    },
+    {
+        "prefix": "about",
+        "widths": [400, 800, 1000],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "about/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+    },
+    {
+        "prefix": "self",
+        "widths": [400, 800, 1200],
+        "formats": ["avif", "jpeg"],
+        "relativePath": "self/",
+        "sharpAvifOptions": {
+            "quality": 70
+        },
+        "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+    }
+    
+]

@@ -16,9 +16,9 @@ eleventyNavigation:
             The photographs on this site were taken with a variety of cameras, most of them analog. Using less CPU-time in my life is nice.</p>
         <p>The majority of my photographs are taken around Switzerland. A few are from Scandinavia or further away (from me at least :P). 
             This site serves two purposes. Primarily, it is meant as a replacement for my old Instagram account, which I do not maintain anymore. I have better ways to spend my time than doomscrolling through that misbegotten app. 
-            Friends and family can enjoy my photography here, and everyone else. If you happen to find it. :)
+            Friends and family can enjoy my photography here, and everyone else. If you happen to find it :).
             The second purpose is to act as a photographic diary, where I keep my favorite shots in one place.
-            There are dedicated tools for this, but I don't care. I will add some metadata to my photographs in the future, but for now you can just enjoy the images as they are. Done is better than perfect.</p>
+            There are dedicated tools for this, but I like this site. I will add some metadata to my photographs in the future, but for now you can just enjoy the images as they are. Done is better than perfect.</p>
         
             
         <H2>Gear</H2>
@@ -54,27 +54,17 @@ eleventyNavigation:
         </ul>
 
     </div>
-    {% optimizedImage "src/assets/images/moi.jpg", "myself" , "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"%}
+    {% galleryImage "self-1", "self" %}
 </div>
 <div class="about-camera-images">
-    {% for image in gallery.camera.images %}
-        {% set imagePath = "src/assets/images/camera/" + image %}
-        {% set imageAlt = image | replace(r/\.(jpg|jpeg|png|gif|webp)$/, "") %}
-        {% if image == "moi-3.jpg" %}
+    {% for image in gallery.about.images %}
+        {% if image == "about-3" %}
             <div class="credited-image">
-                {% optimizedImage
-                    imagePath,
-                    imageAlt, 
-                    "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
-                %}
+                {% galleryImage image, 'about' %}
                 <p class="credit">Photo by the great <a href="https://www.instagram.com/kevinguerreiromusic" target="_blank" rel="noopener">Kevin Guerreiro</a></p>
             </div>
         {% else %}
-            {% optimizedImage
-                imagePath,
-                imageAlt, 
-                "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
-            %}
+            {% galleryImage image, 'about' %}
         {% endif %}
     {% endfor%}
 

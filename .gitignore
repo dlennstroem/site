@@ -135,3 +135,12 @@ _site/*
 _site/index.html
 _site/index.html
 _site/about/index.html
+
+images/
+
+.env
+
+*.avif
+*.webp
+*.jpeg
+*.jpg

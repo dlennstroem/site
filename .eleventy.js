@@ -1,104 +1,88 @@
-const Image = require("@11ty/eleventy-img")
 const faviconsPlugin = require("eleventy-plugin-gen-favicons")
-const path = require("path")
-const fs = require("fs")
+const imageManifest = require("./src/_data/imageManifest.json")
+const s3Url = "https://s3.dalen.ch/"
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
   // eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"})
-  
   eleventyConfig.addPassthroughCopy("src/scripts")
 
   eleventyConfig.addShortcode(
     "headers",
-    (title, subtitle) => 
+    (title, subtitle) =>
       `<h1>${title}</h1>
         <p>${subtitle}</p>`
   )
   eleventyConfig.addPlugin(faviconsPlugin, {})
 
+  eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function (name, galleryPrefix) {
+    const imageData = imageManifest[galleryPrefix][name]
+    if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
 
-  eleventyConfig.addNunjucksAsyncShortcode("optimizedImage", async function(src, alt, sizes, widths) {
-    widths = widths || [400, 800, 1200, 1600]
-    let metadata = await Image(src, {
-      widths: [...widths, 20],
-      formats: ["avif", "webp", "jpeg"],
-      urlPath: "/assets/images/optimized/",
-      outputDir: "./_site/assets/images/optimized/",
-      sharpAvifOptions: {
-        quality: 70
-      },
-      filenameFormat: function (id, src, width, format, options) {
-        const extension = path.extname(src)
-        const name = path.basename(src, extension)
-        return `${name}-${width}w.${format}`
-      }
-    })
+    // TODO: Create srcsets dynamically based on available formats and widths in the manifest
+    const avifSrcSet = imageData.urls.avif.join(",\n  ")
+    const jpegSrcSet = imageData.urls.jpeg.join(",\n  ")
+    const sizes = imageData.sizes || "100vw"
 
-    const primaryImageData = metadata.jpeg[0]
-    const aspectRatio = primaryImageData.width / primaryImageData.height
-
-    // Generate base64 string for the lowest quality image (20px width) for blurred placeholder effect
-    const lowsrc = metadata.jpeg.find(image => image.width === 20)
-    const base64Buffer = fs.readFileSync(lowsrc.outputPath)
-    const bas64String = `data:image/jpeg;base64,${base64Buffer.toString("base64")}`
-
-    let imageAttributes = {
-      alt,
-      sizes,
-      loading: "lazy",
-      decoding: "async",
-      class: "blur-load",
-      style: `width: 100%; height: auto; aspect-ratio: ${aspectRatio}; background-image: url(${bas64String}); background-size: cover;`, // style for blurred placeholder effect
-      onload: "this.classList.add('loaded')"
-    }
-    return Image.generateHTML(metadata, imageAttributes)
+    // TODO: Add placeholder image if not found
+    return `
+      <picture class="hero-image">
+        <source type="image/avif" srcset="${avifSrcSet}" sizes="${sizes}">
+        <source type="image/jpeg" srcset="${jpegSrcSet}" sizes="${sizes}">
+        <img src="${imageData.urls.jpeg[0].split(" ")[0]}" 
+            alt="${imageData.alt}" 
+            loading="eager" 
+            fetchpriority="high"
+            decoding="sync" 
+            sizes="${sizes}">
+      </picture>
+      `
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("getOptimizedUrl", async function(src, widths) {
-    widths = widths || [2000]
-    let metadata = await Image(src, {
-      widths: widths,
-      formats: ["avif", "webp", "jpeg"],
-      urlPath: "/assets/images/optimized/",
-      outputDir: "./_site/assets/images/optimized/",
-      sharpAvifOptions: {
-        quality: 70
-      },
-      filenameFormat: function (id, src, width, format, options) {
-        const extension = path.extname(src)
-        const name = path.basename(src, extension)
-        return `${name}-${width}w.${format}`
-      }
-    })
+  eleventyConfig.addNunjucksAsyncShortcode("galleryImage", async function (name, galleryPrefix) {
 
-    if (metadata.avif?.[0]) return metadata.avif[0].url
-    if (metadata.webp?.[0]) return metadata.webp[0].url
-    return metadata.jpeg[0].url
+    const imageData = imageManifest[galleryPrefix][name]
+
+    if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
+
+    // TODO: Create srcsets dynamically based on available formats and widths in the manifest
+    const avifSrcSet = imageData.urls.avif.join(",\n  ")
+    const jpegSrcSet = imageData.urls.jpeg.join(",\n  ")
+    const sizes = imageData.sizes || "100vw"
+
+    // TODO: Add placeholder image if not found
+    const placeholderUrl = `${s3Url}${name}-20w.jpeg`
+    return `
+      <picture class="blur-load ${galleryPrefix}" style="background-image: url('${placeholderUrl}');">
+        <source type="image/avif" srcset="${avifSrcSet}" sizes="${sizes}">
+        <source type="image/jpeg" srcset="${jpegSrcSet}" sizes="${sizes}">
+        <img src="${imageData.urls.jpeg[0].split(" ")[0]}" 
+            alt="${imageData.alt}" 
+            loading="lazy" 
+            decoding="async" 
+            class="gallery-image" 
+            sizes="${sizes}"
+            onload="this.classList.add('loaded')">
+      </picture>
+      `
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function(src, alt) {
-    let metadata = await Image(src, {
-      widths: [2000, 2400],
-      formats: ["avif", "webp", "jpeg"],
-      urlPath: "/assets/images/optimized/",
-      outputDir: "./_site/assets/images/optimized/",
-      sharpAvifOptions: {
-        quality: 70
-      }
-    });
+  eleventyConfig.addNunjucksAsyncShortcode("getLightboxImage", async function(name, galleryPrefix) {
+    const imageData = imageManifest[galleryPrefix][name]
+    if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
 
-    let imageAttributes = {
-      alt,
-      sizes: "100vw", 
-      loading: "eager", 
-      fetchpriority: "high",
-      decoding: "sync",
-    };
+    const formats = imageData.urls.avif?.length
+    ? imageData.urls.avif
+    : imageData.urls.jpeg
+    const largest = formats
+      .map(entry => {
+        const [url, width] = entry.split(" ")
+        return { url, width: parseInt(width.replace("w", "")) }
+      })
+      .sort((a, b) => b.width - a.width)[0]
 
-    return Image.generateHTML(metadata, imageAttributes);
+    return largest.url
   })
-
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
@@ -119,11 +103,11 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-        input: "src",
-        data: "_data",
-        includes: "_includes",
-        layouts: "_layouts"
-        // output: "_site"
+      input: "src",
+      data: "_data",
+      includes: "_includes",
+      layouts: "_layouts"
+      // output: "_site"
     }
   }
 }

@@ -8,25 +8,16 @@ eleventyNavigation:
   order: 2
 ---
 
+{# TODO: Create combined template with pano #}
 <div class="gallery-header">
     <p>In no particular order.</p>
 </div>
 <div class="gallery-container">
     <div class="masonry-grid" id="gallery">
         {% for image in gallery.landscape.images | reverse %}
-            {% set imagePath = "src/assets/images/landscapes/" + image %}
-            {% set imageAlt = image | replace(r/\.(jpg|jpeg|webp|avif)$/, "") %}
-            {% set masonryImageWidths = [400, 800, 1200, 1600] %}
-            {% set masonrySize = "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" %}
-            {% set lightboxImageWidths = [1600] %}
-
             <figure class="masonry-item">
-                <button class="lightbox-trigger" data-full="{% getOptimizedUrl imagePath, lightboxImageWidths %}">
-                    {% optimizedImage 
-                        imagePath, 
-                        imageAlt, 
-                        masonrySize, 
-                        masonryImageWidths %}
+                <button class="lightbox-trigger" data-full="{% getLightboxImage  image, 'landscape' %}">
+                    {% galleryImage image, 'landscape' %}
                 </button>
             </figure>
         {% endfor %}
