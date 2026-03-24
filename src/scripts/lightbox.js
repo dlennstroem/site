@@ -56,9 +56,22 @@ lightbox.addEventListener("click", (e) => {
 
 document.addEventListener("keydown", (e) => {
   if (lightbox.getAttribute("aria-hidden") === "true") return
-  
+
   if (e.key === "Escape") closeLightBox()
   if (e.key === "ArrowRight") showNext()
   if (e.key === "ArrowLeft") showPrev()
 })
+
+let touchStartX = 0
+
+lightbox.addEventListener("touchstart", (e) => {
+  touchStartX = e.changedTouches[0].clientX
+}, { passive: true })
+
+lightbox.addEventListener("touchend", (e) => {
+  if (lightbox.getAttribute("aria-hidden") === "true") return
+  const delta = e.changedTouches[0].clientX - touchStartX
+  if (Math.abs(delta) < 40) return
+  delta < 0 ? showNext() : showPrev()
+}, { passive: true })
 

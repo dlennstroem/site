@@ -28,7 +28,8 @@
     {{content | safe}}
     </main>
     {% if not hideNav %}
-      {% include "partials/_footer.njk" %} 
+      {% include "partials/_footer.njk" %}
     {% endif %}
+    <script src="{{ '/scripts/navToggle.js' | url }}" defer></script>
   </body>
 </html>

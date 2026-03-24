@@ -4,8 +4,8 @@ const s3Url = "https://s3.dalen.ch/"
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
-  // eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"})
   eleventyConfig.addPassthroughCopy("src/scripts")
+  eleventyConfig.addPassthroughCopy("src/robots.txt")
 
   eleventyConfig.addShortcode(
     "headers",
