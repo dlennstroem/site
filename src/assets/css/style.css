@@ -370,7 +370,7 @@ main:has(.gallery-container) {
 .lightbox {
   position: fixed;
   inset: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -391,18 +391,9 @@ main:has(.gallery-container) {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.25s ease;
   opacity: 0;
   cursor: default;
-}
-
-.lightbox-image {
-  animation: fadeIn 0.2s ease;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0 }
-  to { opacity: 1 }
 }
 
 .lightbox-close {
