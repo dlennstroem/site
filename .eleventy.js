@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
   )
   eleventyConfig.addPlugin(faviconsPlugin, {})
 
-  eleventyConfig.addNunjucksAsyncShortcode("heroImage", async function (name, galleryPrefix) {
+  eleventyConfig.addNunjucksShortcode("heroImage", function (name, galleryPrefix) {
     const imageData = imageManifest[galleryPrefix][name]
     if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
 
@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
       `
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("galleryImage", async function (name, galleryPrefix) {
+  eleventyConfig.addNunjucksShortcode("galleryImage", function (name, galleryPrefix) {
 
     const imageData = imageManifest[galleryPrefix][name]
 
@@ -67,7 +67,7 @@ module.exports = function (eleventyConfig) {
       `
   })
 
-  eleventyConfig.addNunjucksAsyncShortcode("getLightboxImage", async function(name, galleryPrefix) {
+  eleventyConfig.addNunjucksShortcode("getLightboxImage", function(name, galleryPrefix) {
     const imageData = imageManifest[galleryPrefix][name]
     if (!imageData) throw new Error(`Image ${name} in gallery ${galleryPrefix} not found`)
 
@@ -82,6 +82,15 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.width - a.width)[0]
 
     return largest.url
+  })
+
+  eleventyConfig.addNunjucksFilter("json", function(value) {
+    return JSON.stringify(value)
+  })
+
+  eleventyConfig.addGlobalData("gallery", function() {
+    const rawGallery = require("./src/_data/gallery.js")
+    return rawGallery.default || rawGallery
   })
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
