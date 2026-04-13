@@ -62,6 +62,8 @@ module.exports = function (eleventyConfig) {
             decoding="async" 
             class="gallery-image" 
             sizes="${sizes}"
+            width="${imageData.width}"
+            height="${imageData.height}"
             onload="this.classList.add('loaded')">
       </picture>
       `
