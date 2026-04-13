@@ -91,8 +91,12 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addGlobalData("gallery", function() {
-    const rawGallery = require("./src/_data/gallery.js")
-    return rawGallery.default || rawGallery
+    const manifest = require("./src/_data/imageManifest.json")
+    return {
+      landscape: { images: Object.keys(manifest.landscape) },
+      pano:      { images: Object.keys(manifest.pano) },
+      about:     { images: Object.keys(manifest.about) },
+    }
   })
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
