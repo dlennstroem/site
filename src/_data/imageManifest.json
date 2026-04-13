@@ -3,6 +3,8 @@
     "landscape-1": {
       "name": "landscape-1",
       "alt": "landscape-1 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-1-400w.avif 400w",
@@ -22,6 +24,8 @@
     "landscape-10": {
       "name": "landscape-10",
       "alt": "landscape-10 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-10-400w.avif 400w",
@@ -41,6 +45,8 @@
     "landscape-11": {
       "name": "landscape-11",
       "alt": "landscape-11 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-11-400w.avif 400w",
@@ -60,6 +66,8 @@
     "landscape-12": {
       "name": "landscape-12",
       "alt": "landscape-12 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-12-400w.avif 400w",
@@ -79,6 +87,8 @@
     "landscape-13": {
       "name": "landscape-13",
       "alt": "landscape-13 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-13-400w.avif 400w",
@@ -98,6 +108,8 @@
     "landscape-14": {
       "name": "landscape-14",
       "alt": "landscape-14 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-14-400w.avif 400w",
@@ -117,6 +129,8 @@
     "landscape-15": {
       "name": "landscape-15",
       "alt": "landscape-15 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-15-400w.avif 400w",
@@ -136,6 +150,8 @@
     "landscape-16": {
       "name": "landscape-16",
       "alt": "landscape-16 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-16-400w.avif 400w",
@@ -155,6 +171,8 @@
     "landscape-17": {
       "name": "landscape-17",
       "alt": "landscape-17 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-17-400w.avif 400w",
@@ -174,6 +192,8 @@
     "landscape-18": {
       "name": "landscape-18",
       "alt": "landscape-18 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-18-400w.avif 400w",
@@ -193,6 +213,8 @@
     "landscape-19": {
       "name": "landscape-19",
       "alt": "landscape-19 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-19-400w.avif 400w",
@@ -212,6 +234,8 @@
     "landscape-2": {
       "name": "landscape-2",
       "alt": "landscape-2 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-2-400w.avif 400w",
@@ -231,6 +255,8 @@
     "landscape-20": {
       "name": "landscape-20",
       "alt": "landscape-20 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-20-400w.avif 400w",
@@ -250,6 +276,8 @@
     "landscape-21": {
       "name": "landscape-21",
       "alt": "landscape-21 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-21-400w.avif 400w",
@@ -269,6 +297,8 @@
     "landscape-22": {
       "name": "landscape-22",
       "alt": "landscape-22 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-22-400w.avif 400w",
@@ -288,6 +318,8 @@
     "landscape-23": {
       "name": "landscape-23",
       "alt": "landscape-23 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-23-400w.avif 400w",
@@ -307,6 +339,8 @@
     "landscape-24": {
       "name": "landscape-24",
       "alt": "landscape-24 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-24-400w.avif 400w",
@@ -326,6 +360,8 @@
     "landscape-25": {
       "name": "landscape-25",
       "alt": "landscape-25 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-25-400w.avif 400w",
@@ -345,6 +381,8 @@
     "landscape-26": {
       "name": "landscape-26",
       "alt": "landscape-26 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-26-400w.avif 400w",
@@ -364,6 +402,8 @@
     "landscape-27": {
       "name": "landscape-27",
       "alt": "landscape-27 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-27-400w.avif 400w",
@@ -383,6 +423,8 @@
     "landscape-28": {
       "name": "landscape-28",
       "alt": "landscape-28 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-28-400w.avif 400w",
@@ -402,6 +444,8 @@
     "landscape-29": {
       "name": "landscape-29",
       "alt": "landscape-29 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-29-400w.avif 400w",
@@ -421,6 +465,8 @@
     "landscape-3": {
       "name": "landscape-3",
       "alt": "landscape-3 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-3-400w.avif 400w",
@@ -440,6 +486,8 @@
     "landscape-30": {
       "name": "landscape-30",
       "alt": "landscape-30 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-30-400w.avif 400w",
@@ -459,6 +507,8 @@
     "landscape-31": {
       "name": "landscape-31",
       "alt": "landscape-31 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-31-400w.avif 400w",
@@ -478,6 +528,8 @@
     "landscape-32": {
       "name": "landscape-32",
       "alt": "landscape-32 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-32-400w.avif 400w",
@@ -497,6 +549,8 @@
     "landscape-33": {
       "name": "landscape-33",
       "alt": "landscape-33 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-33-400w.avif 400w",
@@ -516,6 +570,8 @@
     "landscape-34": {
       "name": "landscape-34",
       "alt": "landscape-34 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-34-400w.avif 400w",
@@ -535,6 +591,8 @@
     "landscape-35": {
       "name": "landscape-35",
       "alt": "landscape-35 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-35-400w.avif 400w",
@@ -554,6 +612,8 @@
     "landscape-36": {
       "name": "landscape-36",
       "alt": "landscape-36 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-36-400w.avif 400w",
@@ -573,6 +633,8 @@
     "landscape-37": {
       "name": "landscape-37",
       "alt": "landscape-37 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-37-400w.avif 400w",
@@ -592,6 +654,8 @@
     "landscape-38": {
       "name": "landscape-38",
       "alt": "landscape-38 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-38-400w.avif 400w",
@@ -611,6 +675,8 @@
     "landscape-39": {
       "name": "landscape-39",
       "alt": "landscape-39 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-39-400w.avif 400w",
@@ -630,6 +696,8 @@
     "landscape-4": {
       "name": "landscape-4",
       "alt": "landscape-4 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-4-400w.avif 400w",
@@ -649,6 +717,8 @@
     "landscape-40": {
       "name": "landscape-40",
       "alt": "landscape-40 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-40-400w.avif 400w",
@@ -668,6 +738,8 @@
     "landscape-41": {
       "name": "landscape-41",
       "alt": "landscape-41 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-41-400w.avif 400w",
@@ -687,6 +759,8 @@
     "landscape-42": {
       "name": "landscape-42",
       "alt": "landscape-42 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-42-400w.avif 400w",
@@ -706,6 +780,8 @@
     "landscape-43": {
       "name": "landscape-43",
       "alt": "landscape-43 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-43-400w.avif 400w",
@@ -725,6 +801,8 @@
     "landscape-44": {
       "name": "landscape-44",
       "alt": "landscape-44 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-44-400w.avif 400w",
@@ -744,6 +822,8 @@
     "landscape-45": {
       "name": "landscape-45",
       "alt": "landscape-45 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-45-400w.avif 400w",
@@ -763,6 +843,8 @@
     "landscape-46": {
       "name": "landscape-46",
       "alt": "landscape-46 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-46-400w.avif 400w",
@@ -782,6 +864,8 @@
     "landscape-47": {
       "name": "landscape-47",
       "alt": "landscape-47 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-47-400w.avif 400w",
@@ -801,6 +885,8 @@
     "landscape-48": {
       "name": "landscape-48",
       "alt": "landscape-48 in Gallery: landscape",
+      "width": 1912,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-48-400w.avif 400w",
@@ -820,6 +906,8 @@
     "landscape-49": {
       "name": "landscape-49",
       "alt": "landscape-49 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-49-400w.avif 400w",
@@ -839,6 +927,8 @@
     "landscape-5": {
       "name": "landscape-5",
       "alt": "landscape-5 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-5-400w.avif 400w",
@@ -858,6 +948,8 @@
     "landscape-50": {
       "name": "landscape-50",
       "alt": "landscape-50 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-50-400w.avif 400w",
@@ -877,6 +969,8 @@
     "landscape-51": {
       "name": "landscape-51",
       "alt": "landscape-51 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-51-400w.avif 400w",
@@ -896,6 +990,8 @@
     "landscape-52": {
       "name": "landscape-52",
       "alt": "landscape-52 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-52-400w.avif 400w",
@@ -915,6 +1011,8 @@
     "landscape-53": {
       "name": "landscape-53",
       "alt": "landscape-53 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-53-400w.avif 400w",
@@ -934,6 +1032,8 @@
     "landscape-54": {
       "name": "landscape-54",
       "alt": "landscape-54 in Gallery: landscape",
+      "width": 2400,
+      "height": 1939,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-54-400w.avif 400w",
@@ -953,6 +1053,8 @@
     "landscape-55": {
       "name": "landscape-55",
       "alt": "landscape-55 in Gallery: landscape",
+      "width": 1940,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-55-400w.avif 400w",
@@ -972,6 +1074,8 @@
     "landscape-56": {
       "name": "landscape-56",
       "alt": "landscape-56 in Gallery: landscape",
+      "width": 1940,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-56-400w.avif 400w",
@@ -991,6 +1095,8 @@
     "landscape-57": {
       "name": "landscape-57",
       "alt": "landscape-57 in Gallery: landscape",
+      "width": 2400,
+      "height": 1940,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-57-400w.avif 400w",
@@ -1010,6 +1116,8 @@
     "landscape-58": {
       "name": "landscape-58",
       "alt": "landscape-58 in Gallery: landscape",
+      "width": 2400,
+      "height": 1940,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-58-400w.avif 400w",
@@ -1029,6 +1137,8 @@
     "landscape-59": {
       "name": "landscape-59",
       "alt": "landscape-59 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-59-400w.avif 400w",
@@ -1048,6 +1158,8 @@
     "landscape-6": {
       "name": "landscape-6",
       "alt": "landscape-6 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-6-400w.avif 400w",
@@ -1067,6 +1179,8 @@
     "landscape-60": {
       "name": "landscape-60",
       "alt": "landscape-60 in Gallery: landscape",
+      "width": 2400,
+      "height": 1910,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-60-400w.avif 400w",
@@ -1086,6 +1200,8 @@
     "landscape-61": {
       "name": "landscape-61",
       "alt": "landscape-61 in Gallery: landscape",
+      "width": 2400,
+      "height": 1950,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-61-400w.avif 400w",
@@ -1105,6 +1221,8 @@
     "landscape-62": {
       "name": "landscape-62",
       "alt": "landscape-62 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-62-400w.avif 400w",
@@ -1124,6 +1242,8 @@
     "landscape-63": {
       "name": "landscape-63",
       "alt": "landscape-63 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-63-400w.avif 400w",
@@ -1143,6 +1263,8 @@
     "landscape-64": {
       "name": "landscape-64",
       "alt": "landscape-64 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-64-400w.avif 400w",
@@ -1162,6 +1284,8 @@
     "landscape-65": {
       "name": "landscape-65",
       "alt": "landscape-65 in Gallery: landscape",
+      "width": 1938,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-65-400w.avif 400w",
@@ -1181,6 +1305,8 @@
     "landscape-66": {
       "name": "landscape-66",
       "alt": "landscape-66 in Gallery: landscape",
+      "width": 2400,
+      "height": 1938,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-66-400w.avif 400w",
@@ -1200,6 +1326,8 @@
     "landscape-67": {
       "name": "landscape-67",
       "alt": "landscape-67 in Gallery: landscape",
+      "width": 2400,
+      "height": 1938,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-67-400w.avif 400w",
@@ -1219,6 +1347,8 @@
     "landscape-68": {
       "name": "landscape-68",
       "alt": "landscape-68 in Gallery: landscape",
+      "width": 2400,
+      "height": 1938,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-68-400w.avif 400w",
@@ -1238,6 +1368,8 @@
     "landscape-69": {
       "name": "landscape-69",
       "alt": "landscape-69 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-69-400w.avif 400w",
@@ -1257,6 +1389,8 @@
     "landscape-7": {
       "name": "landscape-7",
       "alt": "landscape-7 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-7-400w.avif 400w",
@@ -1276,6 +1410,8 @@
     "landscape-70": {
       "name": "landscape-70",
       "alt": "landscape-70 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-70-400w.avif 400w",
@@ -1295,6 +1431,8 @@
     "landscape-71": {
       "name": "landscape-71",
       "alt": "landscape-71 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-71-400w.avif 400w",
@@ -1314,6 +1452,8 @@
     "landscape-72": {
       "name": "landscape-72",
       "alt": "landscape-72 in Gallery: landscape",
+      "width": 2400,
+      "height": 1904,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-72-400w.avif 400w",
@@ -1333,6 +1473,8 @@
     "landscape-73": {
       "name": "landscape-73",
       "alt": "landscape-73 in Gallery: landscape",
+      "width": 2400,
+      "height": 1908,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-73-400w.avif 400w",
@@ -1352,6 +1494,8 @@
     "landscape-74": {
       "name": "landscape-74",
       "alt": "landscape-74 in Gallery: landscape",
+      "width": 2400,
+      "height": 1908,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-74-400w.avif 400w",
@@ -1371,6 +1515,8 @@
     "landscape-75": {
       "name": "landscape-75",
       "alt": "landscape-75 in Gallery: landscape",
+      "width": 2400,
+      "height": 1908,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-75-400w.avif 400w",
@@ -1390,6 +1536,8 @@
     "landscape-76": {
       "name": "landscape-76",
       "alt": "landscape-76 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-76-400w.avif 400w",
@@ -1409,6 +1557,8 @@
     "landscape-77": {
       "name": "landscape-77",
       "alt": "landscape-77 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-77-400w.avif 400w",
@@ -1428,6 +1578,8 @@
     "landscape-78": {
       "name": "landscape-78",
       "alt": "landscape-78 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-78-400w.avif 400w",
@@ -1447,6 +1599,8 @@
     "landscape-79": {
       "name": "landscape-79",
       "alt": "landscape-79 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-79-400w.avif 400w",
@@ -1466,6 +1620,8 @@
     "landscape-8": {
       "name": "landscape-8",
       "alt": "landscape-8 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-8-400w.avif 400w",
@@ -1485,6 +1641,8 @@
     "landscape-80": {
       "name": "landscape-80",
       "alt": "landscape-80 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-80-400w.avif 400w",
@@ -1504,6 +1662,8 @@
     "landscape-81": {
       "name": "landscape-81",
       "alt": "landscape-81 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-81-400w.avif 400w",
@@ -1523,6 +1683,8 @@
     "landscape-82": {
       "name": "landscape-82",
       "alt": "landscape-82 in Gallery: landscape",
+      "width": 1920,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-82-400w.avif 400w",
@@ -1542,6 +1704,8 @@
     "landscape-83": {
       "name": "landscape-83",
       "alt": "landscape-83 in Gallery: landscape",
+      "width": 2400,
+      "height": 1945,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-83-400w.avif 400w",
@@ -1561,6 +1725,8 @@
     "landscape-84": {
       "name": "landscape-84",
       "alt": "landscape-84 in Gallery: landscape",
+      "width": 2400,
+      "height": 1945,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-84-400w.avif 400w",
@@ -1580,6 +1746,8 @@
     "landscape-85": {
       "name": "landscape-85",
       "alt": "landscape-85 in Gallery: landscape",
+      "width": 1906,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-85-400w.avif 400w",
@@ -1599,6 +1767,8 @@
     "landscape-86": {
       "name": "landscape-86",
       "alt": "landscape-86 in Gallery: landscape",
+      "width": 2400,
+      "height": 1923,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-86-400w.avif 400w",
@@ -1618,6 +1788,8 @@
     "landscape-87": {
       "name": "landscape-87",
       "alt": "landscape-87 in Gallery: landscape",
+      "width": 1923,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-87-400w.avif 400w",
@@ -1637,6 +1809,8 @@
     "landscape-88": {
       "name": "landscape-88",
       "alt": "landscape-88 in Gallery: landscape",
+      "width": 1928,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-88-400w.avif 400w",
@@ -1656,6 +1830,8 @@
     "landscape-89": {
       "name": "landscape-89",
       "alt": "landscape-89 in Gallery: landscape",
+      "width": 1926,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-89-400w.avif 400w",
@@ -1675,6 +1851,8 @@
     "landscape-9": {
       "name": "landscape-9",
       "alt": "landscape-9 in Gallery: landscape",
+      "width": 2400,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/landscape-9-400w.avif 400w",
@@ -1696,6 +1874,8 @@
     "pano-1": {
       "name": "pano-1",
       "alt": "pano-1 in Gallery: pano",
+      "width": 4000,
+      "height": 2000,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-1-600w.avif 600w",
@@ -1713,6 +1893,8 @@
     "pano-10": {
       "name": "pano-10",
       "alt": "pano-10 in Gallery: pano",
+      "width": 4000,
+      "height": 1412,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-10-600w.avif 600w",
@@ -1730,6 +1912,8 @@
     "pano-11": {
       "name": "pano-11",
       "alt": "pano-11 in Gallery: pano",
+      "width": 4000,
+      "height": 1412,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-11-600w.avif 600w",
@@ -1747,6 +1931,8 @@
     "pano-12": {
       "name": "pano-12",
       "alt": "pano-12 in Gallery: pano",
+      "width": 4000,
+      "height": 1412,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-12-600w.avif 600w",
@@ -1764,6 +1950,8 @@
     "pano-13": {
       "name": "pano-13",
       "alt": "pano-13 in Gallery: pano",
+      "width": 4000,
+      "height": 1412,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-13-600w.avif 600w",
@@ -1781,6 +1969,8 @@
     "pano-14": {
       "name": "pano-14",
       "alt": "pano-14 in Gallery: pano",
+      "width": 4000,
+      "height": 1412,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-14-600w.avif 600w",
@@ -1798,6 +1988,8 @@
     "pano-15": {
       "name": "pano-15",
       "alt": "pano-15 in Gallery: pano",
+      "width": 4000,
+      "height": 1412,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-15-600w.avif 600w",
@@ -1815,6 +2007,8 @@
     "pano-16": {
       "name": "pano-16",
       "alt": "pano-16 in Gallery: pano",
+      "width": 4000,
+      "height": 1345,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-16-600w.avif 600w",
@@ -1832,6 +2026,8 @@
     "pano-2": {
       "name": "pano-2",
       "alt": "pano-2 in Gallery: pano",
+      "width": 4000,
+      "height": 2000,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-2-600w.avif 600w",
@@ -1849,6 +2045,8 @@
     "pano-3": {
       "name": "pano-3",
       "alt": "pano-3 in Gallery: pano",
+      "width": 4000,
+      "height": 1374,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-3-600w.avif 600w",
@@ -1866,6 +2064,8 @@
     "pano-4": {
       "name": "pano-4",
       "alt": "pano-4 in Gallery: pano",
+      "width": 4000,
+      "height": 1362,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-4-600w.avif 600w",
@@ -1883,6 +2083,8 @@
     "pano-5": {
       "name": "pano-5",
       "alt": "pano-5 in Gallery: pano",
+      "width": 4000,
+      "height": 1362,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-5-600w.avif 600w",
@@ -1900,6 +2102,8 @@
     "pano-6": {
       "name": "pano-6",
       "alt": "pano-6 in Gallery: pano",
+      "width": 4000,
+      "height": 1333,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-6-600w.avif 600w",
@@ -1917,6 +2121,8 @@
     "pano-7": {
       "name": "pano-7",
       "alt": "pano-7 in Gallery: pano",
+      "width": 4000,
+      "height": 1393,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-7-600w.avif 600w",
@@ -1934,6 +2140,8 @@
     "pano-8": {
       "name": "pano-8",
       "alt": "pano-8 in Gallery: pano",
+      "width": 4000,
+      "height": 1346,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-8-600w.avif 600w",
@@ -1951,6 +2159,8 @@
     "pano-9": {
       "name": "pano-9",
       "alt": "pano-9 in Gallery: pano",
+      "width": 4000,
+      "height": 1345,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/pano-9-600w.avif 600w",
@@ -1970,6 +2180,8 @@
     "hero-image-1": {
       "name": "hero-image-1",
       "alt": "hero-image-1 in Gallery: hero-image",
+      "width": 4000,
+      "height": 3200,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/hero-image-1-2000w.avif 2000w",
@@ -1987,6 +2199,8 @@
     "about-1": {
       "name": "about-1",
       "alt": "about-1 in Gallery: about",
+      "width": 2400,
+      "height": 1800,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/about-1-400w.avif 400w",
@@ -2004,6 +2218,8 @@
     "about-2": {
       "name": "about-2",
       "alt": "about-2 in Gallery: about",
+      "width": 1350,
+      "height": 1800,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/about-2-400w.avif 400w",
@@ -2021,6 +2237,8 @@
     "about-3": {
       "name": "about-3",
       "alt": "about-3 in Gallery: about",
+      "width": 1068,
+      "height": 1600,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/about-3-400w.avif 400w",
@@ -2040,6 +2258,8 @@
     "self-1": {
       "name": "self-1",
       "alt": "self-1 in Gallery: self",
+      "width": 1915,
+      "height": 2400,
       "urls": {
         "avif": [
           "https://s3.dalen.ch/self-1-400w.avif 400w",

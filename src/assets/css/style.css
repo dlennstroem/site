@@ -288,6 +288,7 @@ main:has(.gallery-container) {
   position: relative;
   z-index: 1;
   display: block;
+  height: auto;
 }
 
 .masonry-grid {

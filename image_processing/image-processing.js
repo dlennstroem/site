@@ -1,5 +1,6 @@
 const Image = require("@11ty/eleventy-img")
 const { S3Client, PutObjectCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
+const sharp = require("sharp")
 const dotenv = require("dotenv")
 const fs = require("fs")
 const path = require("path")
@@ -48,6 +49,7 @@ async function uploadToR2(filePath, key) {
 
 async function uploadOptimizedImagesToR2(allKeysInR2) {
     const optimizedDir = path.join(__dirname, OUTPUT_DIR)
+    if (!fs.existsSync(optimizedDir)) return
     for (const file of fs.readdirSync(optimizedDir)) {
         const key = file
 
@@ -99,9 +101,12 @@ async function processImageSet(imageSet, allKeysInR2) {
     
     for (const file of fs.readdirSync(imagePath)) {
         const baseName = path.parse(file).name
-        IMAGE_MANIFEST[imageSet.prefix][baseName] = { 
-            "name": baseName, 
+        const { width, height } = await sharp(path.join(imagePath, file)).metadata()
+        IMAGE_MANIFEST[imageSet.prefix][baseName] = {
+            "name": baseName,
             "alt": `${baseName} in Gallery: ${imageSet.prefix}`,
+            "width": width,
+            "height": height,
             "urls": {},
             "sizes": imageSet.sizes
         }
@@ -142,8 +147,6 @@ async function run() {
         await processImageSet(imageSet, allKeysInR2)
 
     }
-    await uploadOptimizedImagesToR2(allKeysInR2)
-
     fs.writeFile("../src/_data/imageManifest.json", JSON.stringify(IMAGE_MANIFEST, null, 2), (err) => {
         if (err) {
             console.error("Error writing image manifest:", err)
@@ -151,6 +154,8 @@ async function run() {
             console.log("Image manifest written successfully")
         }
     })
+
+    await uploadOptimizedImagesToR2(allKeysInR2)
 }
 
 run()

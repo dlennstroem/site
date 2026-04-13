@@ -20,6 +20,7 @@ function openLightBox(idx) {
     requestAnimationFrame(() => {
       lightboxImg.style.opacity = "1"
     })
+    preloadAdjacentImages(idx)
   }
 }
 
@@ -30,27 +31,37 @@ function closeLightBox() {
   document.body.style.overflow = ""
 }
 
+function preloadAdjacentImages(idx) {
+  const nextSrc = triggers[(idx + 1) % triggers.length].dataset.full
+  const prevSrc = triggers[(idx - 1 + triggers.length) % triggers.length].dataset.full
+  new Image().src = nextSrc
+  new Image().src = prevSrc
+}
+
 function loadLightboxImage(src) {
-  lightboxImg.style.opacity = "0"
-  lightboxImg.src = ""
-  requestAnimationFrame(() => {
-    lightboxImg.src = src
-    lightboxImg.onload = () => {
+  const preload = new Image()
+  preload.onload = () => {
+    lightboxImg.style.opacity = "0"
+    lightboxImg.addEventListener("transitionend", () => {
+      lightboxImg.src = src
       requestAnimationFrame(() => {
         lightboxImg.style.opacity = "1"
       })
-    }
-  })
+    }, { once: true })
+  }
+  preload.src = src
 }
 
 function showNext() {
   currentIdx = (currentIdx + 1) % triggers.length
   loadLightboxImage(triggers[currentIdx].dataset.full)
+  preloadAdjacentImages(currentIdx)
 }
 
 function showPrev() {
   currentIdx = (currentIdx - 1 + triggers.length) % triggers.length
   loadLightboxImage(triggers[currentIdx].dataset.full)
+  preloadAdjacentImages(currentIdx)
 }
 
 triggers.forEach((trigger, idx) => {
