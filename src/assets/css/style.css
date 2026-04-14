@@ -136,6 +136,11 @@ nav {
   color: var(--color-dark);
 }
 
+.nav-image {
+  height: 1em;
+  margin-left: 1rem;
+}
+
 .nav-links a:hover {
   color: var(--color-red);
 }
@@ -157,6 +162,10 @@ nav {
   nav {
     justify-content: space-between;
     padding: 0 1.25rem;
+  }
+
+  .nav-image {
+    display: none;
   }
 
   .nav-toggle {
