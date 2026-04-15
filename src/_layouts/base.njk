@@ -19,7 +19,11 @@
     {% favicons 'src/assets/favicon.svg' %}
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
-    <script>document.documentElement.classList.add('js')</script>
+    <script>
+      document.documentElement.classList.add('js');
+      var _t = localStorage.getItem('color-theme');
+      if (_t) document.documentElement.setAttribute('data-theme', _t);
+    </script>
   </head>
   <body>
     {% if not hideNav %}
@@ -32,5 +36,6 @@
       {% include "partials/_footer.njk" %}
     {% endif %}
     <script src="{{ '/scripts/navToggle.js' | url }}" defer></script>
+    <script src="{{ '/scripts/themeToggle.js' | url }}" defer></script>
   </body>
 </html>
