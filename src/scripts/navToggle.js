@@ -1,6 +1,36 @@
 const nav = document.querySelector("nav")
 const toggle = document.querySelector(".nav-toggle")
 
+let lastScrollY = window.scrollY
+let scrollUpDistance = 0
+const HIDE_THRESHOLD = 80
+const SHOW_THRESHOLD = 120
+
+window.addEventListener("scroll", () => {
+  const currentScrollY = window.scrollY
+  const delta = lastScrollY - currentScrollY
+
+  if (currentScrollY < HIDE_THRESHOLD) {
+    nav.classList.remove("nav-hidden")
+    scrollUpDistance = 0
+  } else if (delta < 0) {
+    scrollUpDistance = 0
+    nav.classList.add("nav-hidden")
+    if (toggle) {
+      nav.classList.remove("open")
+      toggle.setAttribute("aria-expanded", "false")
+      toggle.innerHTML = "&#9776;"
+    }
+  } else {
+    scrollUpDistance += delta
+    if (scrollUpDistance >= SHOW_THRESHOLD) {
+      nav.classList.remove("nav-hidden")
+    }
+  }
+
+  lastScrollY = currentScrollY
+}, { passive: true })
+
 if (toggle) {
   toggle.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("open")
