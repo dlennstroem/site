@@ -1,5 +1,5 @@
 const Image = require("@11ty/eleventy-img")
-const { S3Client, PutObjectCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
+const { S3Client, PutObjectCommand, DeleteObjectsCommand, paginateListObjectsV2 } = require("@aws-sdk/client-s3")
 const sharp = require("sharp")
 const dotenv = require("dotenv")
 const fs = require("fs")
@@ -59,6 +59,44 @@ async function uploadOptimizedImagesToR2(allKeysInR2) {
             continue
         }
         await uploadToR2(path.join(optimizedDir, file), key)
+    }
+}
+
+function computeExpectedKeys(processingSettings) {
+    const expectedKeys = new Set()
+    for (const imageSet of processingSettings) {
+        const imagePath = path.join(INPUT_DIR, imageSet.relativePath)
+        if (!fs.existsSync(imagePath)) continue
+        for (const file of fs.readdirSync(imagePath)) {
+            const baseName = path.parse(file).name
+            for (const format of imageSet.formats) {
+                for (const w of imageSet.widths) {
+                    expectedKeys.add(`${baseName}-${w}w.${format}`)
+                }
+            }
+            // placeholder
+            expectedKeys.add(`${baseName}-20w.jpeg`)
+        }
+    }
+    return expectedKeys
+}
+
+async function deleteStaleR2Keys(allKeysInR2, expectedKeys) {
+    const keysToDelete = allKeysInR2.filter(key => !expectedKeys.has(key))
+    if (keysToDelete.length === 0) {
+        console.log("No stale images to delete from R2")
+        return
+    }
+    console.log(`Deleting ${keysToDelete.length} stale image(s) from R2...`)
+    for (let i = 0; i < keysToDelete.length; i += 1000) {
+        const batch = keysToDelete.slice(i, i + 1000)
+        await client.send(new DeleteObjectsCommand({
+            Bucket: BUCKET,
+            Delete: { Objects: batch.map(key => ({ Key: key })) }
+        }))
+        for (const key of batch) {
+            console.log(`Deleted stale image from R2: ${key}`)
+        }
     }
 }
 
@@ -143,10 +181,12 @@ async function run() {
     const allKeysInR2 = await getAllKeysInR2()
 
     for (const imageSet of processingSettings) {
-        // imageManifest[imageSet.prefix] = {}
         await processImageSet(imageSet, allKeysInR2)
-
     }
+
+    const expectedKeys = computeExpectedKeys(processingSettings)
+    await deleteStaleR2Keys(allKeysInR2, expectedKeys)
+
     fs.writeFile("../src/_data/imageManifest.json", JSON.stringify(IMAGE_MANIFEST, null, 2), (err) => {
         if (err) {
             console.error("Error writing image manifest:", err)
