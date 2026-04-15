@@ -116,13 +116,21 @@ main:has(.hero) {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  padding-right: 4vw;
   align-items: center;
-  position: relative;
+  position: sticky;
+  top: 0;
   height: 3.5rem;
   width: 100%;
   background-color: var(--color-white);
   color: var(--color-dark);
+  transition: transform 0.3s ease;
+  z-index: 100;
+}
+
+nav.nav-hidden {
+  transform: translateY(-100%);
 }
 
 .nav-links {
@@ -132,13 +140,18 @@ nav {
 
 .nav-links a {
   display: block;
-  margin: 1rem 2rem;
+  /* margin: 1rem 2rem; */
+  margin-left: 5vw;
+  font-size: 1.25rem; 
   color: var(--color-dark);
 }
 
 .nav-image {
-  height: 1em;
-  margin-left: 1rem;
+  position: absolute;
+  left: 4vw;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1.25em;
 }
 
 .nav-links a:hover {
