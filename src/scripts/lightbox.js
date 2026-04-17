@@ -84,6 +84,13 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "ArrowLeft") showPrev()
 })
 
+// Close lightbox if window is resized to mobile size while open
+window.addEventListener("resize", () => {
+  if (window.innerWidth <= 480 && lightbox.getAttribute("aria-hidden") === "false") {
+    closeLightBox()
+  }
+})
+
 let touchStartX = 0
 
 lightbox.addEventListener("touchstart", (e) => {
