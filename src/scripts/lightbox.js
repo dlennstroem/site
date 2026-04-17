@@ -8,6 +8,7 @@ const triggers = Array.from(document.querySelectorAll(".lightbox-trigger"))
 let currentIdx = 0
 
 function openLightBox(idx) {
+  if (window.innerWidth <= 480) return
   currentIdx = idx
   document.body.style.overflow = "hidden"
 

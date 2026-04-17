@@ -512,31 +512,12 @@ main:has(.gallery-container) {
 }
 
 @media (max-width: 480px) {
-  .lightbox-close {
-    top: 0.75rem;
-    right: 0.75rem;
-    font-size: 2rem;
-    padding: 0.5rem;
-    line-height: 1;
+  .lightbox {
+    display: none !important;
   }
 
-  .lightbox-prev,
-  .lightbox-next {
-    top: auto;
-    bottom: 1.5rem;
-    transform: none;
-    font-size: 2rem;
-    padding: 0.75rem 1.5rem;
-    background: rgba(0, 0, 0, 0.08);
-    border-radius: 4px;
-  }
-
-  .lightbox-prev {
-    left: 1.5rem;
-  }
-
-  .lightbox-next {
-    right: 1.5rem;
+  .lightbox-trigger {
+    cursor: default;
   }
 }
 
