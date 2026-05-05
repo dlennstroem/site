@@ -67,7 +67,8 @@ function computeExpectedKeys(processingSettings) {
     for (const imageSet of processingSettings) {
         const imagePath = path.join(INPUT_DIR, imageSet.relativePath)
         if (!fs.existsSync(imagePath)) continue
-        for (const file of fs.readdirSync(imagePath)) {
+        const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif", ".tiff"])
+        for (const file of fs.readdirSync(imagePath).filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))) {
             const baseName = path.parse(file).name
             for (const format of imageSet.formats) {
                 for (const w of imageSet.widths) {
@@ -137,7 +138,8 @@ async function processImageSet(imageSet, allKeysInR2) {
     const imagesToBeProcessed = []
     IMAGE_MANIFEST[imageSet.prefix] = {}
     
-    for (const file of fs.readdirSync(imagePath)) {
+    const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif", ".tiff"])
+    for (const file of fs.readdirSync(imagePath).filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))) {
         const baseName = path.parse(file).name
         const { width, height } = await sharp(path.join(imagePath, file)).metadata()
         IMAGE_MANIFEST[imageSet.prefix][baseName] = {

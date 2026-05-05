@@ -1,3 +1,4 @@
+const navContainer = document.querySelector(".nav-container")
 const nav = document.querySelector("nav")
 const toggle = document.querySelector(".nav-toggle")
 
@@ -11,11 +12,11 @@ window.addEventListener("scroll", () => {
   const delta = lastScrollY - currentScrollY
 
   if (currentScrollY < HIDE_THRESHOLD) {
-    nav.classList.remove("nav-hidden")
+    navContainer.classList.remove("nav-hidden")
     scrollUpDistance = 0
   } else if (delta < 0) {
     scrollUpDistance = 0
-    nav.classList.add("nav-hidden")
+    navContainer.classList.add("nav-hidden")
     if (toggle) {
       nav.classList.remove("open")
       toggle.setAttribute("aria-expanded", "false")
@@ -24,7 +25,7 @@ window.addEventListener("scroll", () => {
   } else {
     scrollUpDistance += delta
     if (scrollUpDistance >= SHOW_THRESHOLD) {
-      nav.classList.remove("nav-hidden")
+      navContainer.classList.remove("nav-hidden")
     }
   }
 
