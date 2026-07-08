@@ -1889,6 +1889,48 @@
         ]
       },
       "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+    },
+    "landscape-92": {
+      "name": "landscape-92",
+      "alt": "landscape-92 in Gallery: landscape",
+      "width": 2400,
+      "height": 1880,
+      "urls": {
+        "avif": [
+          "https://s3.dalen.ch/landscape-92-400w.avif 400w",
+          "https://s3.dalen.ch/landscape-92-800w.avif 800w",
+          "https://s3.dalen.ch/landscape-92-1200w.avif 1200w",
+          "https://s3.dalen.ch/landscape-92-1600w.avif 1600w"
+        ],
+        "jpeg": [
+          "https://s3.dalen.ch/landscape-92-400w.jpeg 400w",
+          "https://s3.dalen.ch/landscape-92-800w.jpeg 800w",
+          "https://s3.dalen.ch/landscape-92-1200w.jpeg 1200w",
+          "https://s3.dalen.ch/landscape-92-1600w.jpeg 1600w"
+        ]
+      },
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+    },
+    "landscape-93": {
+      "name": "landscape-93",
+      "alt": "landscape-93 in Gallery: landscape",
+      "width": 2400,
+      "height": 1920,
+      "urls": {
+        "avif": [
+          "https://s3.dalen.ch/landscape-93-400w.avif 400w",
+          "https://s3.dalen.ch/landscape-93-800w.avif 800w",
+          "https://s3.dalen.ch/landscape-93-1200w.avif 1200w",
+          "https://s3.dalen.ch/landscape-93-1600w.avif 1600w"
+        ],
+        "jpeg": [
+          "https://s3.dalen.ch/landscape-93-400w.jpeg 400w",
+          "https://s3.dalen.ch/landscape-93-800w.jpeg 800w",
+          "https://s3.dalen.ch/landscape-93-1200w.jpeg 1200w",
+          "https://s3.dalen.ch/landscape-93-1600w.jpeg 1600w"
+        ]
+      },
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
     }
   },
   "pano": {
