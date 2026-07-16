@@ -43,6 +43,8 @@ async function uploadToR2(filePath, key) {
         Bucket: BUCKET,
         Key: key,
         Body: fileContent,
+        ContentType: mime[path.extname(key).slice(1)] ?? "application/octet-stream",
+        CacheControl: "public, max-age=31536000, immutable" // Cache for 1 year
     }))
     console.log(`Uploaded ${key} to R2`)
 }

@@ -35,6 +35,8 @@ module.exports = function (eleventyConfig) {
             loading="eager" 
             fetchpriority="high"
             decoding="sync" 
+            width="${imageData.width}"
+            height="${imageData.height}"
             sizes="${sizes}">
       </picture>
       `
