@@ -372,8 +372,17 @@ main:has(.gallery-container) {
   z-index: 0;
 }
 
-.blur-load.loaded::before {
+.blur-load:has(img.loaded)::before {
   opacity: 0;
+}
+
+.gallery-image {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.gallery-image.loaded {
+  opacity: 1;
 }
 
 .blur-load img {
@@ -401,6 +410,8 @@ main:has(.gallery-container) {
   margin-bottom: clamp(1.5rem, 4vw, 6rem);
   overflow: hidden;
   background-color: #f0f0f0;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 400px;
 }
 
 .masonry-item picture img {
