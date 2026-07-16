@@ -1,6 +1,5 @@
 const faviconsPlugin = require("eleventy-plugin-gen-favicons")
 const imageManifest = require("./src/_data/imageManifest.json")
-const s3Url = "https://s3.dalen.ch/"
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.css")
@@ -35,6 +34,8 @@ module.exports = function (eleventyConfig) {
             loading="eager" 
             fetchpriority="high"
             decoding="sync" 
+            width="${imageData.width}"
+            height="${imageData.height}"
             sizes="${sizes}">
       </picture>
       `
@@ -51,8 +52,7 @@ module.exports = function (eleventyConfig) {
     const jpegSrcSet = imageData.urls.jpeg.join(",\n  ")
     const sizes = imageData.sizes || "100vw"
 
-    // TODO: Add placeholder image if not found
-    const placeholderUrl = `${s3Url}${name}-20w.jpeg`
+    const placeholderUrl = imageData.placeholder
     return `
       <picture class="blur-load ${galleryPrefix}" style="background-image: url('${placeholderUrl}');">
         <source type="image/avif" srcset="${avifSrcSet}" sizes="${sizes}">

@@ -43,6 +43,8 @@ async function uploadToR2(filePath, key) {
         Bucket: BUCKET,
         Key: key,
         Body: fileContent,
+        ContentType: mime[path.extname(key).slice(1)] ?? "application/octet-stream",
+        CacheControl: "public, max-age=31536000, immutable" // Cache for 1 year
     }))
     console.log(`Uploaded ${key} to R2`)
 }
@@ -76,7 +78,7 @@ function computeExpectedKeys(processingSettings) {
                 }
             }
             // placeholder
-            expectedKeys.add(`${baseName}-20w.jpeg`)
+            // expectedKeys.add(`${baseName}-20w.jpeg`)
         }
     }
     return expectedKeys
@@ -115,20 +117,20 @@ async function processImage(src, imageOptions) {
     })
 
     // placeholder
-    await Image(src, {
-        widths: [20],
-        formats: ["jpeg"],
-        outputDir: OUTPUT_DIR,
-        urlPath: OUTPUT_DIR,
-        sharpJpegOptions: {
-            quality: 40
-        },
-        filenameFormat(id, src, width, format) {
-            const extension = path.extname(src)
-            const name = path.basename(src, extension)
-            return `${name}-${width}w.${format}`
-        }
-    })
+    // await Image(src, {
+    //     widths: [20],
+    //     formats: ["jpeg"],
+    //     outputDir: OUTPUT_DIR,
+    //     urlPath: OUTPUT_DIR,
+    //     sharpJpegOptions: {
+    //         quality: 40
+    //     },
+    //     filenameFormat(id, src, width, format) {
+    //         const extension = path.extname(src)
+    //         const name = path.basename(src, extension)
+    //         return `${name}-${width}w.${format}`
+    //     }
+    // })
     console.log(`Processed ${src}`)
 }
 
@@ -141,14 +143,20 @@ async function processImageSet(imageSet, allKeysInR2) {
     const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif", ".tiff"])
     for (const file of fs.readdirSync(imagePath).filter(f => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))) {
         const baseName = path.parse(file).name
-        const { width, height } = await sharp(path.join(imagePath, file)).metadata()
+        const filePath = path.join(imagePath, file)
+        const { width, height } = await sharp(filePath).metadata()
+        const placeholderBuffer = await sharp(filePath)
+            .resize({ width: 20 })
+            .jpeg({ quality: 40 })
+            .toBuffer()
         IMAGE_MANIFEST[imageSet.prefix][baseName] = {
             "name": baseName,
             "alt": `${baseName} in Gallery: ${imageSet.prefix}`,
             "width": width,
             "height": height,
             "urls": {},
-            "sizes": imageSet.sizes
+            "sizes": imageSet.sizes,
+            "placeholder": `data:image/jpeg;base64,${placeholderBuffer.toString("base64")}`
         }
 
         for (const format of ["avif", "jpeg"]) {

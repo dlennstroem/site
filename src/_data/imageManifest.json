@@ -19,7 +19,8 @@
           "https://s3.dalen.ch/landscape-1-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAIEAQMGBf/EACUQAAIBAwIGAwEAAAAAAAAAAAECAAMEERMhEjEzUXGRBRQiNP/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE/8QAGhEBAAMAAwAAAAAAAAAAAAAAAAEREgITUf/aAAwDAQACEQMRAD8Ax8nZvvVCqaYG++DPI0HqFOA/tzwgnvOua8smH9FMjzIfYtOYrU+/ONOdXZcypUrY6SaqLqYHFsOcSzUu7VWxqg+BmJbs4+thxyl8dRpIlsdRvcROFNrZ6meo3uIiGhf/2Q=="
     },
     "landscape-10": {
       "name": "landscape-10",
@@ -40,7 +41,8 @@
           "https://s3.dalen.ch/landscape-10-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUDBAb/xAAiEAACAgIBAwUAAAAAAAAAAAABAgADBBEhEiIxBUFScXL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARIx/9oADAMBAAIRAxEAPwD0IdvgZhlNc6EIhnX1ADe+JyYWcuWbQvhG4+pROsRy3ch3+dxLBI3E3ZmrHHc20qX0djmQXrON6hkV0WWVopGgG8biIjScXNdHaCTr3PkxESD/2Q=="
     },
     "landscape-11": {
       "name": "landscape-11",
@@ -61,7 +63,8 @@
           "https://s3.dalen.ch/landscape-11-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAUGAQIDBP/EACIQAAIBAwIHAAAAAAAAAAAAAAECAAMEERJBBSExMlFhcv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8At2Zo7gdTMF8bGRt5eCmxycct5R62roD3RK098HOoasejEotk51UVwQ6qw8EZiIRH1OH2bOS1rRJ+BERCv//Z"
     },
     "landscape-12": {
       "name": "landscape-12",
@@ -82,7 +85,8 @@
           "https://s3.dalen.ch/landscape-12-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAiEAACAgAGAgMAAAAAAAAAAAAAAQIDBAYREjGBIVEjU6H/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGBEBAQADAAAAAAAAAAAAAAAAAAECISL/2gAMAwEAAhEDEQA/AMenFuHPletTRrx8Gkm12y1PLVGvxq2PaI55ZfKsl+FlLinrxUNi0mkgVHl2z7proDSdOn3NINv2AYdET5AAH//Z"
     },
     "landscape-13": {
       "name": "landscape-13",
@@ -103,7 +107,8 @@
           "https://s3.dalen.ch/landscape-13-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBBAL/xAAjEAACAgEEAQUBAAAAAAAAAAABAgARAxIhMUEiBBMyQmFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgME/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAECETEyUf/aAAwDAQACEQMRAD8A4MeUP7uX7A0BfAE1Mq6jlY6RW19TnegTlSwmny/T1JrkDHWx72U9SDXhVYUbIHYltZ328DxEshBFlgf6YiDZno7zFsbEhX2Nc0JLGiumQMPiBURJx5Y5ajwu1qOAaiImqKVGaTdn/9k="
     },
     "landscape-14": {
       "name": "landscape-14",
@@ -124,7 +129,8 @@
           "https://s3.dalen.ch/landscape-14-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQADBP/EACMQAQABAwMDBQAAAAAAAAAAAAECAAMEERIhBTFRExRBYpH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AYleswgyex4o7M6zDHiMbG5Xg1/a0liDzvQ+NPFcuV0yF8N+QRDtxQLxbc4xkIEjXR4Sqi/QA0948fQqoP//Z"
     },
     "landscape-15": {
       "name": "landscape-15",
@@ -145,7 +151,8 @@
           "https://s3.dalen.ch/landscape-15-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACYQAAIBAwQBAwUAAAAAAAAAAAECAwAEERITITEyFFFxIjNBwcL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AbvbokF3Bw4z9J6pbdSfQdnjg6lPIxWEKBhKzjEigHGOx71oZHSPQEd1UZOMDj25oGdrhWBJDDPIA/dFQbi9vDMfTQyCLpQUzRQWpBrlVU5bsA91Kv7pllkRWWKPGl2UZ5/FA81pK/wDtN8f1QbwXk+0uzKwXHQHVFTYfE/NFB//Z"
     },
     "landscape-16": {
       "name": "landscape-16",
@@ -166,7 +173,8 @@
           "https://s3.dalen.ch/landscape-16-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIDBAUG/8QAJhAAAQMDAwIHAAAAAAAAAAAAAAECBAMRIRIxMiIzQVJTcpGS0f/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDqKbVViDuZgzGRYr9OpiqnuX9FdAg+jm3mUC29LO8PkDOfCg6uyn2UAK9OZhMjOl4vczqe5K7iA9SX17gUanMAP//Z"
     },
     "landscape-17": {
       "name": "landscape-17",
@@ -187,7 +195,8 @@
           "https://s3.dalen.ch/landscape-17-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgYE/8QAJhAAAgECAwgDAAAAAAAAAAAAAQIAAxEEBSESIjEyQVFhgRMVFv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBltKONoDEbJ3QLeRE+EztalZFZLBjqb8uknOsydGSjQYAjeYjjfpAdHEqdSxv4EJi/t8SjNZ+Zix9wgNMJkrUW2qlZSewE6Xyqk1X5KhqVG7DQRgecS/SBnPztRtXqop7WJ0hH78fUIH//2Q=="
     },
     "landscape-18": {
       "name": "landscape-18",
@@ -208,7 +217,8 @@
           "https://s3.dalen.ch/landscape-18-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGAgf/xAAkEAABAwQBAwUAAAAAAAAAAAABAAIDBBESIUEFEzIxYnGh0f/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBza6N2w4EJjeoRW8wFM0tF1FwDoaecg+3X2mz0dexjQYJC4Ah2IyI+bcoKA9UpwSO8240UKRdRV17innIPPbP4hB0bd/UojY2PMtuM3ZHfKOVpAt77O2ULMnkhB//Z"
     },
     "landscape-19": {
       "name": "landscape-19",
@@ -229,7 +239,8 @@
           "https://s3.dalen.ch/landscape-19-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAF/8QAIxAAAgEEAQMFAAAAAAAAAAAAAQIDAAQRIRIxQYEFExRRof/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDP+DHGU5SgqxwSo6UtzaxQFFWdpAVyNDz3pn9SsHAX2X19OMD8opLmzfioWQuSAVJBHjVAEkVuHIEjEds4zVU4t1Ygqq76ZqoP/9k="
     },
     "landscape-2": {
       "name": "landscape-2",
@@ -250,7 +261,8 @@
           "https://s3.dalen.ch/landscape-2-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUCAwb/xAAkEAACAgEDAgcAAAAAAAAAAAAAAQIDEQUSIQQxFTJBUVNhsf/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8Atxlg3vIy1OEoOUc8LLXsaq1Tp35rZQf3FlcS1WbQJ3iVHyx/AMNedtW21Y7c8eh3sgo7cdpLlACM1IvslGzCfAAFJH//2Q=="
     },
     "landscape-20": {
       "name": "landscape-20",
@@ -271,7 +283,8 @@
           "https://s3.dalen.ch/landscape-20-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAwX/xAAkEAACAgEDAgcAAAAAAAAAAAABAgARAwQFEhPRI0FRYXGBkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBnVbi+QkBlQeizBN1OMcciBwPO6NTkZMOS7ZgPm+0XyK18eqp+z2gUw3PRMLLkexUwkmcT2fFX9MIH/9k="
     },
     "landscape-21": {
       "name": "landscape-21",
@@ -292,7 +305,8 @@
           "https://s3.dalen.ch/landscape-21-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYCBAX/xAAhEAACAgIBBAMAAAAAAAAAAAABAgADBBESBSFBUSIxYf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCL5rWP8SEUfQBmjTfQ6jm6ofOz2imtdloDLeOJ86Mu1dHyrFBS1Tv1AYHzsCtuJyU2PQJhF23oWYraPLf4sIH/2Q=="
     },
     "landscape-22": {
       "name": "landscape-22",
@@ -313,7 +327,8 @@
           "https://s3.dalen.ch/landscape-22-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIDBAUG/8QAJRAAAgIBAQcFAAAAAAAAAAAAAQIAAxEhBAUSEzJhgTFBQnGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEhEmH/2gAMAwEAAhEDEQA/AKlW9a/mhzJ13rshIDca57ZxMflga4J8SJq2D6KSe0UvoV1VZptQPXajKffiEJywpsOvKaEWsw62uV0BwNdTHS8E5P5iVqugxV638QzFWoLsDQZhKK+h+4R9jy//2Q=="
     },
     "landscape-23": {
       "name": "landscape-23",
@@ -334,7 +349,8 @@
           "https://s3.dalen.ch/landscape-23-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACUQAAICAQIFBQEAAAAAAAAAAAECAxEABBIhMUFRYQUTIiMycf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwB3We4AWjZdwdivKmWuR85J9Z3OijawiXiQRRU/3rm7u2kkljsGNeKNzK30I7ecW1OoSRWQ/TVKKsgAdcCUFeT5RyAL2IwxqPVGIFN8S7TX5u8MD//Z"
     },
     "landscape-24": {
       "name": "landscape-24",
@@ -355,7 +371,8 @@
           "https://s3.dalen.ch/landscape-24-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAhEAADAAEDBAMAAAAAAAAAAAABAgMAEiExBAURIkFhYv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDo6i85lZz3oeFGJ2ElVimrz9bnK6dGktN/LEcZl3BXMtCTo7uw3A4wIjaFk1orAE/K4Ypdlto9l0n9HDA//9k="
     },
     "landscape-25": {
       "name": "landscape-25",
@@ -376,7 +393,8 @@
           "https://s3.dalen.ch/landscape-25-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAJBAAAgICAQIHAQAAAAAAAAAAAQIDEQAEMRJBISIjYYGRoeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AxbDIFMpCg+AURjk/PONsSwwwu9Ux6buyK7DIa2rLsETQMfR8xY1z7XzlZNhJlCSO8ZsXEE6QP3nAIkkqhrJ+zjKrKUUKDKgHYH+4wP/Z"
     },
     "landscape-26": {
       "name": "landscape-26",
@@ -397,7 +415,8 @@
           "https://s3.dalen.ch/landscape-26-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCBAb/xAAeEAACAgMBAAMAAAAAAAAAAAABAgMRAAQSIQVSkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBfB8lMlrJzJzV34f3Gohi2IElDoocXTH0ZmElb6scbaqLNqKfQw8asCcmnD2bljGGVZNU9GmYYYH//2Q=="
     },
     "landscape-27": {
       "name": "landscape-27",
@@ -418,7 +437,8 @@
           "https://s3.dalen.ch/landscape-27-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAQFBgP/xAAlEAABAwQBAgcAAAAAAAAAAAABAAIDBBESIQUicRMxQVFhsdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKrh6ifAiKpmic06s4427K7oefn8QwVeBc1t8xrJZZjZaGqb1d/ZSQ4mc9QbewyI/VKmvHNw+v2izjKRjrl1Q4b0LjyROhFnYKisdnq2tKU2GPEDEHuiIauEj5I3lrZHW+doiKg//9k="
     },
     "landscape-28": {
       "name": "landscape-28",
@@ -439,7 +459,8 @@
           "https://s3.dalen.ch/landscape-28-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQFAgP/xAAkEAACAQMEAgIDAAAAAAAAAAABAgADBBESEyExBUEVUVKx0f/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCqv5So5Owgc/kWwomF5O7urgbNSqunJ1KvHR9yq4apRcUWddzHQJH6kFYrVbUpKfYyDmCnEBo8nAMTQawdsEbxyO9K/wBiKo1a9tRruTUTUT7zzOfj7YKp0ddc9REKvZVwMDOIiJkf/9k="
     },
     "landscape-29": {
       "name": "landscape-29",
@@ -460,7 +481,8 @@
           "https://s3.dalen.ch/landscape-29-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQGAgMF/8QAHxAAAgICAgMBAAAAAAAAAAAAAQIAEQMEEjEFEyFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AJuLcxmyxCi+yZOx7WL18uY4gWTKeuwFIsxsb4VAqk0R3JtWtT+axK1IwI/YlEbbYtdmIh0Jg4iJmWhh9iIiH//Z"
     },
     "landscape-3": {
       "name": "landscape-3",
@@ -481,7 +503,8 @@
           "https://s3.dalen.ch/landscape-3-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EACIQAAIBAwQCAwAAAAAAAAAAAAECAAMEEQUhMUESYVFSof/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDDW2FXWGXYhVVQR2JzKlICqCBhC2JRdMGvqp88dDPe0nLY+jfMDp3iAXDBWYAADY+ok905esW8uQO4gTUVFSuyngk5mdyoTIUYw2PyIga8qp9REQP/2Q=="
     },
     "landscape-30": {
       "name": "landscape-30",
@@ -502,7 +525,8 @@
           "https://s3.dalen.ch/landscape-30-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGAv/EACAQAAICAgEFAQAAAAAAAAAAAAECABEDBCEFEkFhcXL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAwDAQACEQMRAD8AwnUMDtYZD9jC7OvkruavSyOTJXmN4dorXMmlYh02W3Iv8mEnhv5a4YKIQhr/2Q=="
     },
     "landscape-31": {
       "name": "landscape-31",
@@ -523,7 +547,8 @@
           "https://s3.dalen.ch/landscape-31-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYCBAX/xAAoEAEAAQIDBQkAAAAAAAAAAAABAgARAwQSBSEiMWETFDJBUnGBkaH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAAMBAQAAAAAAAAAAAAAAAAABERMC/9oADAMBAAIRAxEAPwC1ldtE8S2YwokVtrh5e5WoZrJ6CfbwIpcVtSlBwtctC3Tkysvxz/KgsWPDM1L4QZJ03Vb5pKcGfE2vszDlZx9W694wZH2FFK/cl3zxbr6eEOliijMdEf/Z"
     },
     "landscape-32": {
       "name": "landscape-32",
@@ -544,7 +569,8 @@
           "https://s3.dalen.ch/landscape-32-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYBAgQF/8QAJRAAAgEDAwIHAAAAAAAAAAAAAQIAERIhAwQTBRQxMkFCUWHR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANa73QKK3MoVsgkyF6hpPUXhqfXjOCulYltbhStQuP2U5lTy4gMy7xCPUfOIRd7wU95hA//Z"
     },
     "landscape-33": {
       "name": "landscape-33",
@@ -565,7 +591,8 @@
           "https://s3.dalen.ch/landscape-33-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGAv/EACIQAAICAQQBBQAAAAAAAAAAAAECAxEABAUSQSEVMWFxgf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwB4bojuVvi3mrNA/uY9ZSMEvIFrq8mX1ErFrUgdEe+KyJIg5OSfmsC3TdElQOsi0R2cMiY9W0a8Vfx9DDA//9k="
     },
     "landscape-34": {
       "name": "landscape-34",
@@ -586,7 +613,8 @@
           "https://s3.dalen.ch/landscape-34-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwL/xAAqEAABAwMBBgYDAAAAAAAAAAABAAIDBBEhBRIiMTRBURVDUlNhcYKSwf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCYNSlDm3bHbrhWaF0dZCJI7fI7JZtBDsPY2KJ924ft3BPZc6KDR1jo3ytDBuu2sZ64/qCqKUdkJ8T0nvxfsEIIkGnRl7LtfIWtAY9+WjPEjCzrKGZ0hdOWA34kgXVHy4PsJfWOZiQLeETWG7Gcergha6rzf4hCD//Z"
     },
     "landscape-35": {
       "name": "landscape-35",
@@ -607,7 +635,8 @@
           "https://s3.dalen.ch/landscape-35-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgT/xAAjEAABBAEEAQUAAAAAAAAAAAABAAIDBBEFEiExFUJRYXGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwL/xAAZEQEBAAMBAAAAAAAAAAAAAAABAAIREkH/2gAMAwEAAhEDEQA/AOSprkbnh9mBpcOMjPP37pn5mvIGNmG5uPQSPxJK1tkb25A5+FqSYmyJWHaQe+krs9gGozqFM4ItbAR0hR1yyZLDnOOSUKOmUxG//9k="
     },
     "landscape-36": {
       "name": "landscape-36",
@@ -628,7 +657,8 @@
           "https://s3.dalen.ch/landscape-36-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAgED/8QAIxAAAgICAQQCAwAAAAAAAAAAAQIAAxEhBBIxMpEFEyNRgf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAAMAAAAAAAAAAAAAAAAAEQEhIv/aAAwDAQACEQMRAD8AwOLVahUqVYZ2NETFXBep1AIIXt+5Nq5t+OkWtrGNxpflLq3Atxgd/cfTBSrVq1xgHedwk5vlqyfy1nrGj0tgH+Qi2qo4Zm8tjQjCq/2YTIB0NzlXj6jdfmJaXgX5HUd+wDCNt3hCYN//2Q=="
     },
     "landscape-37": {
       "name": "landscape-37",
@@ -649,7 +679,8 @@
           "https://s3.dalen.ch/landscape-37-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYBAwQF/8QAIhAAAgIBBAEFAAAAAAAAAAAAAQIAAxEEEiFRMQUTFBVB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAEREjH/2gAMAwEAAhEDEQA/AF+nT7mBI46nY02hIK2LuHHmYPT6XsuVQxyT5MYTcmmAWy4cfijkzTiAqyr4W8lgjDPTYhJ+yQk+3XY47xmEmhRn/9k="
     },
     "landscape-38": {
       "name": "landscape-38",
@@ -670,7 +701,8 @@
           "https://s3.dalen.ch/landscape-38-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAAAAECAwQFBv/EACUQAAIBAwEIAwAAAAAAAAAAAAECAAMEERITISIxMkFRcTOB0f/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/xAAZEQEAAgMAAAAAAAAAAAAAAAAAARICESH/2gAMAwEAAhEDEQA/AFN5bZAXW478IkhrW5p61LHfjBXE55LplORj9l57hN1RVABHSPMuzjxoLd0QMFXEJVtqRuaW0I745QhdUYsShRqVjhBkzWoWS6V2pJI5jzHWnwD1LdPo+4A9GZFCoFVRyBhIG6j7hNWDuX//2Q=="
     },
     "landscape-39": {
       "name": "landscape-39",
@@ -691,7 +723,8 @@
           "https://s3.dalen.ch/landscape-39-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAmEAABAwIDCQEAAAAAAAAAAAABAAIRAwQSFEETFSEiMTJRYXGB/8QAGAEAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARIR/9oADAMBAAIRAxEAPwAy06IyvpUKmzoU8dU4WjVY2t7b3L8DZa7QO1+LTtRkoLVCrigPCEbPLjmXhe3nLnei6VoHiJBLT4U0Jyn2j6lKOKG9ruBNZxjhMwhIs6fqFPkHa//Z"
     },
     "landscape-4": {
       "name": "landscape-4",
@@ -712,7 +745,8 @@
           "https://s3.dalen.ch/landscape-4-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDBAb/xAAjEAACAgEDAwUAAAAAAAAAAAABAgARAxIhQTFhcQQTFCKR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APP4lbGqkAtrOkAbUfyRnXL6ZiS6D7WAj3feV7x0HQzBOed5kxw6gDZBBtq3vxAv5ufSoJJAG1+YnMchU0KI4sXEDbE56EBvIuSVDq2Q9e2wiIHPERA//9k="
     },
     "landscape-40": {
       "name": "landscape-40",
@@ -733,7 +767,8 @@
           "https://s3.dalen.ch/landscape-40-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBQT/xAAmEAACAQMDAQkAAAAAAAAAAAABAgADESEEEjNhEzRRcXKDkcHR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMC7A4jVkek21jfF8S1NqaHecsDgeHWKziqo3EQOUk3hLGlCA9Spp62nRkJpV0AVlthuoP7J9hWW29doU5BMnoe9L6hNZeP3T9QMwOEFgT8wiajnfzMIH//Z"
     },
     "landscape-41": {
       "name": "landscape-41",
@@ -754,7 +789,8 @@
           "https://s3.dalen.ch/landscape-41-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAlEAABBAEDAgcAAAAAAAAAAAABAAIDBBEFEiExYTNBUXFyobH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AQbdPne7b6eeUqK7TecSsMfc8j6WjE7JDiRkMmR1ABykT6dVlGTXhHcAj8QUThTJyLMOPkhTJNEqB3hAezihB/9k="
     },
     "landscape-42": {
       "name": "landscape-42",
@@ -775,7 +811,8 @@
           "https://s3.dalen.ch/landscape-42-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFBP/EACIQAAEDAwMFAAAAAAAAAAAAAAEAAhEDBCEFElEiMWFxgf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBBqNB73DaRHOEzru2Ay5wdExCmvBORTmfsLNd7+kuqTHbkekFcXduRJdB4IQoIrVAM58kIQf/Z"
     },
     "landscape-43": {
       "name": "landscape-43",
@@ -796,7 +833,8 @@
           "https://s3.dalen.ch/landscape-43-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAUBBgIDBP/EACYQAAEDAwMCBwAAAAAAAAAAAAEAAgMEETEFITISURMzQWFxgaH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8As7pCTlYmZrOTgElM5vu4n7UidvdA7E4cLh/6hJDUN7oQVer1SR3jMYbAkBpGbeqmHUnyTsudumx9ylUnM/JW2l89qB4as3yhcRyhB//Z"
     },
     "landscape-44": {
       "name": "landscape-44",
@@ -817,7 +855,8 @@
           "https://s3.dalen.ch/landscape-44-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQFAgMG/8QAJxAAAgECBQMEAwAAAAAAAAAAAQIAAxEEBRIhMRNBUTJCQ2FxkfD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4BkamGIZd7EEbgzKYtKbDpu1/oRbL6w69MPV0i/r7CXMXT6dG+HTZt9S7wFKmZOjaWVgR5FoRF1qFibn9wgS7PTsfq9xKWBzJ8OAFbUnuQ8RKjwf7xMfLA9EMXl9Ua2YITyp7QkF+R+IQP/Z"
     },
     "landscape-45": {
       "name": "landscape-45",
@@ -838,7 +877,8 @@
           "https://s3.dalen.ch/landscape-45-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EACMQAAIBAwMEAwAAAAAAAAAAAAECEQADBBITIQUjMXEyQWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AL3ULK3FVBrU/Ij6pu7Y47qQRwZqfi41t9SjdDEyZWT+c0jIVbbtoIMcFXEGgpm9jny4Huis420xl4n1RQf/Z"
     },
     "landscape-47": {
       "name": "landscape-47",
@@ -859,7 +899,8 @@
           "https://s3.dalen.ch/landscape-47-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFBgT/xAAkEAACAQMDBAMBAAAAAAAAAAABAgADBBEFITESQVFyM2HB8P/EABgBAAIDAAAAAAAAAAAAAAAAAAIDAQQF/8QAGxEAAwADAQEAAAAAAAAAAAAAAAECERITIVH/2gAMAwEAAhEDEQA/ALVPVKFXluhicYbaNNyo7zL6hgWrnYEcZk2jdmgvXSdhVJ3B4x+xcVsssKpwzdC7UjmEyKa7WC4amhPkEiEbhADayrdEoT1L9eZwXdgFVTbq7MWxjP8AYlGz5b2MaO0z+lQ/C1qqJSaVWKgtVpoT23hKN18o9RCM639I0k//2Q=="
     },
     "landscape-48": {
       "name": "landscape-48",
@@ -880,7 +921,8 @@
           "https://s3.dalen.ch/landscape-48-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIAAxEhBDKBElFxIzE0YfD/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AHr66nfa1uJRtcltjRc7WJOLeYEocls9rxWQzTXJ07WhOOmqlcQl3CF7VAgK1FYm/cCDOWC1Ah6VBuCR+Mmp8k8TU7E5kxrFqzX9NsfRhLp7HzCVB//Z"
     },
     "landscape-49": {
       "name": "landscape-49",
@@ -901,7 +943,8 @@
           "https://s3.dalen.ch/landscape-49-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAYCBf/EACIQAAEDAwMFAAAAAAAAAAAAAAEAAhEFEiEDIjEEFEFyof/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAYEQEAAwEAAAAAAAAAAAAAAAAAAQMjIv/aAAwDAQACEQMRAD8A6TqyINouI8I2qOjcI9ThSun19o2YWm1AzOJUJixpzVQqbY5+opXvieWglE3YZv/Z"
     },
     "landscape-5": {
       "name": "landscape-5",
@@ -922,7 +965,8 @@
           "https://s3.dalen.ch/landscape-5-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBgX/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIDESEEEjFBBQZx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERIf/aAAwDAQACEQMRAD8Amqo7MvVcNteDJR513u2Sj+lmr5C6rDrumsbWJF61satcHXgGaX2fl1Lo5Slj20gNqOHTFT3PZM31jiKwgDNIglLL2kAAP//Z"
     },
     "landscape-50": {
       "name": "landscape-50",
@@ -943,7 +987,8 @@
           "https://s3.dalen.ch/landscape-50-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAEDBQYCBP/EACIQAAEEAgEEAwAAAAAAAAAAAAEAAgMRBCESBRUxUXGBof/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/APc3NiOxse7Ujc+EHZr9WQxsqTmQ53lWDJ7aSSKF2tZKOxpO5QN1bj8BCyjOqRiNnIEuIs0hGQ7VQyQseD6XRyHBnAHRBv7UJSKCdoSQpP/Z"
     },
     "landscape-51": {
       "name": "landscape-51",
@@ -964,7 +1009,8 @@
           "https://s3.dalen.ch/landscape-51-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEBf/EAB8QAAEEAgIDAAAAAAAAAAAAAAEAAhEhAxIxMgQTFP/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A1/eAU/oEcFRNx8ufQ4mOyW7djG1HqbK1RFw8gEIUIdkMktyWa1bUITdUf//Z"
     },
     "landscape-52": {
       "name": "landscape-52",
@@ -985,7 +1031,8 @@
           "https://s3.dalen.ch/landscape-52-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBBAUC/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQIAAxEEEjEFISJBMnGBscH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ActItTuMFT+4wUisAn32EfVZp1HzGPvMXq7UsetEIxu5gWEp8RiEYuspqRVfJYD1CBSGq6fuIWhwvAx2/s53dPcrl768HIz5TNq5knn8QLl1ddlrPXrnCn1s4hM9ff3CB/9k="
     },
     "landscape-53": {
       "name": "landscape-53",
@@ -1006,7 +1053,8 @@
           "https://s3.dalen.ch/landscape-53-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYBAgUH/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQACAwQRMQUhMhJRYQZBQnGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AHBQSBkjc2ykKs9R11SHtMgiY7DY9rD7ys5tY8vYJnOfENum+B47Hyg6gEJNpNT1mKANpQayH4SOb1G3YoQK52KBci5VR7qRx/EGvQ63PSUzYQ67W8cbBCyW8QhB/9k="
     },
     "landscape-54": {
       "name": "landscape-54",
@@ -1027,7 +1075,8 @@
           "https://s3.dalen.ch/landscape-54-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACMQAAICAgAGAwEAAAAAAAAAAAECAwQAEQUSISJRoQYTMUH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCpV4lBcTnVJCAOvb6xyOzXKEjYHjrmfeenRk5688UOkICRbYsfJ/mLN8gu2a5iig72GvsUEn0MlWKlrj9KCdowjPr9KjYwyNFwiN4laZ5lkYbK9BrDFI//2Q=="
     },
     "landscape-55": {
       "name": "landscape-55",
@@ -1048,7 +1097,8 @@
           "https://s3.dalen.ch/landscape-55-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCBAYD/8QAKRAAAgEDAwIEBwAAAAAAAAAAAQIDAAQRBRIhMUEGE3KxIjI0NlFhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERMf/aAAwDAQACEQMRAD8AV6hpUlmxIG+E8pIOhFd9CuRBcGKWTETjAyeA2a2Gx1lMXkq1tIDu56Hvx+DSJvDLLfEoym1fPJPxLmiXTYRECiqiz3VpmGeKSdlPEkY4Ydu3FFXRylVxrV1iSATgD5euDn+0z0DUUlRrQrhkyy4ORtJrKXX1EvpHsKveHfuFfS3tRhVs3WNzl1Un9iioHqaKov/Z"
     },
     "landscape-56": {
       "name": "landscape-56",
@@ -1069,7 +1119,8 @@
           "https://s3.dalen.ch/landscape-56-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCBQYD/8QAKxAAAgECBAMHBQAAAAAAAAAAAQIDABEEEiExIjJRBRMUMzRBYWJxcoHR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwBtpsFFj0h5ZMt7g2A+DTrOyrcAFfa2tZLEGSOXmzzGxcjcHerTsqUyKHeQ2HCy9B1qUiy7xm1BjA+o60UeHgbUzan5oq3CazuJe80iwoOIcZDa/aumAkTDyqWcWc5WG96RX1J/L+1CPm/dYaaJjIrWC5l3B6iinoPKWiqP/9k="
     },
     "landscape-57": {
       "name": "landscape-57",
@@ -1090,7 +1141,8 @@
           "https://s3.dalen.ch/landscape-57-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGA//EACQQAAIBBAECBwAAAAAAAAAAAAECAAQFESEDEnETIzFBYpHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwBbb7s/ByBlcg/L0MerfndcMq911Juho/EPmPg+yjf3NKmnRXVMga10/szdMOHufGzZLkdxmEm2VFOOsQhVH//Z"
     },
     "landscape-58": {
       "name": "landscape-58",
@@ -1111,7 +1163,8 @@
           "https://s3.dalen.ch/landscape-58-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAhEAACAQMFAAMAAAAAAAAAAAABAgADBBEFEiExcUFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABkRAQACAwAAAAAAAAAAAAAAAAABEQISQf/aAAwDAQACEQMRAD8AeG4FbgDaT1Fep3q2oZS6vV+Apzj2JH1XUHPDpTUjpUHXvcyvvI5K59mJzjipCtdValUsxyT9iEqZGzzj9hDY0//Z"
     },
     "landscape-59": {
       "name": "landscape-59",
@@ -1132,7 +1185,8 @@
           "https://s3.dalen.ch/landscape-59-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUDBAYB/8QAJRAAAQMCBAcBAAAAAAAAAAAAAQACEQMSBAVBURMhMTJCUmFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8A0znKhi8wo4YlrnAv9ZSOpm2KFMjimT0SurUfUm7mSZnUpyuntTPCXm1zWjaJQs5D9AI+oWsiLTyN1HcuFDuw/itpBcB5AIUKFkf/2Q=="
     },
     "landscape-6": {
       "name": "landscape-6",
@@ -1153,7 +1207,8 @@
           "https://s3.dalen.ch/landscape-6-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBgIE/8QAHxABAAICAQUBAAAAAAAAAAAAAQACAxGRBBIhMUFR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARIR/9oADAMBAAIRAxEAPwC6mCq6q15kXwh9rzMnhzZMbuiifknL1Fre13HVOY0dsdd+WvMTKNlYjqp5HQtfI6SejEvUFjK9yen7ESYqqbYqjrbEREP/2Q=="
     },
     "landscape-60": {
       "name": "landscape-60",
@@ -1174,7 +1229,8 @@
           "https://s3.dalen.ch/landscape-60-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGBf/EACQQAAIBAwMDBQAAAAAAAAAAAAECAwAEERITIgUxQSFRgaHx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEC/8QAGREAAwEBAQAAAAAAAAAAAAAAAAERAhIh/9oADAMBAAIRAxEAPwBmXrI3AkEByTjn3NaNmZJrcSzBQT4AIqXtnAaEXEbNuEgaTlvgVS3c6W1ouGaONeOpu6+37Uuqbawl4DzwqxBWU48iMkUUg1w8eFDIfQEl3OfqikrB5R//2Q=="
     },
     "landscape-61": {
       "name": "landscape-61",
@@ -1195,7 +1251,8 @@
           "https://s3.dalen.ch/landscape-61-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAAAAECAwQFBv/EACMQAAEDAwQCAwAAAAAAAAAAAAEAAgMEERIFISIxUXFBYcH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AxdOa0wSCQBwyCk0mSaKuY6F2LicST1Y+UtBDaN+/Tuh6VnSKR01eAw8WcnH0g6Emr+J4nDyW2/UJ9qobYxn7Qg//2Q=="
     },
     "landscape-62": {
       "name": "landscape-62",
@@ -1216,7 +1273,8 @@
           "https://s3.dalen.ch/landscape-62-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwYF/8QAJxAAAgIABAUEAwAAAAAAAAAAAQIAAwQRITEFEiJBYRMygcEzUXH/xAAXAQEBAQEAAAAAAAAAAAAAAAACAQAD/8QAGxEAAgMAAwAAAAAAAAAAAAAAAAECERIhIkH/2gAMAwEAAhEDEQA/ANRzK52ldz10VtZYwVF3JmWp4vfhzk/Xlrqd5Xi+I24+wG0hKwemtdQvnzM5Frwfu45iGsJo5Ur7Bhmf7Ccb1KTkTzt5hBsVEMQhd01yTv2ylFrAMTVt9xnFfiPx9xWr2LOUXwOa7UTrsYVrkAdP1CKpt8wiyRSP/9k="
     },
     "landscape-63": {
       "name": "landscape-63",
@@ -1237,7 +1295,8 @@
           "https://s3.dalen.ch/landscape-63-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAQT/xAAjEAABBAEDBAMAAAAAAAAAAAABAAIDEQQFEhUhQVFxE0Jh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEC/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8Aac9pv1nL+lnawmlkevac+7fI32xR2LCYm7ngh/gjsmGlZGPh515EHyRv6WRZjPmlFtU08OUpebwexkP7tKF3BjWimmMD0hJUFGf/2Q=="
     },
     "landscape-64": {
       "name": "landscape-64",
@@ -1258,7 +1317,8 @@
           "https://s3.dalen.ch/landscape-64-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYCAwX/xAAkEAABBAECBgMAAAAAAAAAAAACAAEDEQQTYRIhIjEzQXFygf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAES/9oADAMBAAIRAxEAPwDSDMxq5TMWzMrY8zGOTT1QYt3pkmNm6vUUtF2qqUCMb8jX8K0xKHy4SupY/wANkJA4z9SCzfZCUySj/9k="
     },
     "landscape-65": {
       "name": "landscape-65",
@@ -1279,7 +1339,8 @@
           "https://s3.dalen.ch/landscape-65-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAIhAAAgICAQMFAAAAAAAAAAAAAQIAAwQREhMxcSEyQZHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD2VfbakvYBMsYcrdHtD1s7EKpPgSCysGG4kpi2hfUD7iUbXNbXVvEqSyzftZuI15kYtmWzs2XVXUNaASzl+S6/EGEa9QROZu8QP//Z"
     },
     "landscape-66": {
       "name": "landscape-66",
@@ -1300,7 +1361,8 @@
           "https://s3.dalen.ch/landscape-66-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUDBAb/xAAmEAABBAECBAcAAAAAAAAAAAABAgMEEQAFEgYTFCEVIlFhcYGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIR/9oADAMBAAIRAxEAPwAMyUyxzWnmvPVpBo5QmyZk1hLbgRsBvcCb+M0TGnvSUluVKcUlNEU2kD8yKXw2stERpPcDshSQAfvD0Tgg8OAAokX6H3wxknT9UbtPTAgE0d4wyLmy6uT/2Q=="
     },
     "landscape-67": {
       "name": "landscape-67",
@@ -1321,7 +1383,8 @@
           "https://s3.dalen.ch/landscape-67-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAb/xAAkEAACAQIFBAMAAAAAAAAAAAABAgMABQQREjFhBiGh0RMiUf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAMAwEAAhEDEQA/AOffG3DFrnJLNIv4DkPFI3njcHD/ADIw3Kk5jitENtuMcZWNiqtuO/fxU47fcYWLRvpJ339UKA6huUY0mbVy6gmlUPbcTq+5XPnP1SkP/9k="
     },
     "landscape-68": {
       "name": "landscape-68",
@@ -1342,7 +1405,8 @@
           "https://s3.dalen.ch/landscape-68-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EAB8QAAICAgIDAQAAAAAAAAAAAAECAAMRIQQSBRMxFf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBzgqUZRsS2gyswXotZdsEKM7iP7lfra4IfSlnQ4+jI0YFSavJhIz+bssbtxlrav5ljvMIh/9k="
     },
     "landscape-69": {
       "name": "landscape-69",
@@ -1363,7 +1427,8 @@
           "https://s3.dalen.ch/landscape-69-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgb/xAAqEAABBAAFAgQHAAAAAAAAAAACAAEDEQQFEiExMmETIiM1UVJxcoKRwf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBg5vZ+aFnbsVJw5tF8kjdtVrR5NhSfbxAr4FdqZjxwUPp4cyklveithQVhzuOtgL9oUvBngQgYcVCRStyQlz352Qgo52ZNAIxyOJ27uIvWoa3XM0wvqZ61Px2VTMvcpfs/ikSdX4ugYUzMW7W6Et+ovqhB/9k="
     },
     "landscape-7": {
       "name": "landscape-7",
@@ -1384,7 +1449,8 @@
           "https://s3.dalen.ch/landscape-7-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAQFBgID/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIAAxExBAUSIRMiQXL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwH/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECMv/aAAwDAQACEQMRAD8AsEWw7kimspNRuiVUVaN1PM3ufgxOKO6HR0tTTLnkbGl9zmUeq4YsxU06p1EpKO/t4k9UY27JJzEMZtRldIx9e8z13Bjzp/mIk12J8kF2N8mIiUYD/9k="
     },
     "landscape-70": {
       "name": "landscape-70",
@@ -1405,7 +1471,8 @@
           "https://s3.dalen.ch/landscape-70-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGBAX/xAAjEAACAQMEAQUAAAAAAAAAAAABAgMABBEFBhIhQVFhcdHh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AEaJuBrdBDdAung57H5XZu9dto4cwgu5HWR0KkLSVEn4xoACc49aoXitrlBIyFXx8UGZtzTKcG3RvckiikSaWnM/ZooP/9k="
     },
     "landscape-71": {
       "name": "landscape-71",
@@ -1426,7 +1493,8 @@
           "https://s3.dalen.ch/landscape-71-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAjEAACAQMDBAMAAAAAAAAAAAABAhEAAxIEITETQVFxIzJh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AFHux0sLozV4QTiD5PPHbzV69BQ1ySjBibii5DCfEbR32qa2FeXxChtlESQPdN20tXcbjH5FBAYqCZHPO9AqhYAgah7sGJ+0fhMUVn6xm0mpe2ls4mGA5iR7ooP/2Q=="
     },
     "landscape-72": {
       "name": "landscape-72",
@@ -1447,7 +1515,8 @@
           "https://s3.dalen.ch/landscape-72-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGBAf/xAAkEAACAgIABAcAAAAAAAAAAAABAgMRAAQhMVGRBRITI0Fhcf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAaEQACAgMAAAAAAAAAAAAAAAAAAQISAxNR/9oADAMBAAIRAxEAPwDYfGdaPY14ip95qJB4KOvfGw2oFoeayeX3nP5NbYfaUqBS1TE4xUMs3rSyPJJ8VwC/mZvLFBUrjtx3y7nDJJ3V2tkJPUnDI3rg6n//2Q=="
     },
     "landscape-73": {
       "name": "landscape-73",
@@ -1468,7 +1537,8 @@
           "https://s3.dalen.ch/landscape-73-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAhEAABBAICAgMAAAAAAAAAAAABAAIDEQQxBRIhIjJRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//EABoRAAICAwAAAAAAAAAAAAAAAAACARESIVH/2gAMAwEAAhEDEQA/AK/D5zJMQNkd8NXuk+MzHINOBr6XAySyNb6dvIOrWBLlGIhjZA6zoLJX0Wh/l+YZPnPfEbZQA8UhSG4GU8di3r+F1FCZR0Uf/9k="
     },
     "landscape-74": {
       "name": "landscape-74",
@@ -1489,7 +1559,8 @@
           "https://s3.dalen.ch/landscape-74-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQb/xAAgEAABBAEFAQEAAAAAAAAAAAABAAIDEQQFEhMhQTFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/8QAFxEBAQEBAAAAAAAAAAAAAAAAABESE//aAAwDAQACEQMRAD8A324rQPAk5reLGkfCGyOaCa3gUuSbq0jouR0xs9G/qhm1KWWF7CSN5sm/PxXSsyVLIXSOO+7N2hTE0ekIwq//2Q=="
     },
     "landscape-75": {
       "name": "landscape-75",
@@ -1510,7 +1581,8 @@
           "https://s3.dalen.ch/landscape-75-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGAv/EACAQAAICAQQDAQAAAAAAAAAAAAECAxEABAUhMRITQXL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQEBAQAAAAAAAAAAAAAAAAABEQL/2gAMAwEAAhEDEQA/AJdGpQOjjUUpVau6Oai0RPjcYA6NnGZ9FGYF9S1KL5qryd6hYoNq3MpolVn6P3nDJ6FXjjCktf6GGLRf/9k="
     },
     "landscape-76": {
       "name": "landscape-76",
@@ -1531,7 +1603,8 @@
           "https://s3.dalen.ch/landscape-76-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBv/EACQQAAICAQMCBwAAAAAAAAAAAAECAxEABBIxBUEhIlFxkbHB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIRFHQJDC+1ePxjdpVjLk+UGr/fbIpNTPqNqIhBbiuct6LoGaRHkYRorcUNx9avA3WOA2DuUjtsJ+hjOgbQwE3FPMg7hZKs4wP/Z"
     },
     "landscape-77": {
       "name": "landscape-77",
@@ -1552,7 +1625,8 @@
           "https://s3.dalen.ch/landscape-77-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAqEAACAgEDAQUJAAAAAAAAAAABAgARAwQhMRIFEzJBchQiMzRRYXGRsf/EABcBAQADAAAAAAAAAAAAAAAAAAIAAQP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwDm6fF1OyeIgWx+vlQ/ckbEX1WQYwKDdI35l+idmXLkIApAL48yZLgxu2VUr3i3VvJF0LtYbY3wYSk0CQaO/NQjAqMPZ83dghWIo3z9jH7OUNqGzWQtVubPEw0vyDesfybdl+E/loOVomOd2YlaAsjeElf4j+owiHH/2Q=="
     },
     "landscape-78": {
       "name": "landscape-78",
@@ -1573,7 +1647,8 @@
           "https://s3.dalen.ch/landscape-78-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgYA/8QAJhAAAgEDAwEJAAAAAAAAAAAAAQIAAwQRFSGRBRIxQVFTYXGh0f/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAAhL/2gAMAwEAAhEDEQA/AFT66SgZrfPgSGwM8R6/TUA1LaoPg5k4apGzb7YHtG1y6hWpVGDYwxJ7/L6hm2RwVHr9r6VXgfs0lhcsm3Z5GZprtpwX/9k="
     },
     "landscape-79": {
       "name": "landscape-79",
@@ -1594,7 +1669,8 @@
           "https://s3.dalen.ch/landscape-79-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EACQQAQABBAEEAQUAAAAAAAAAAAECAAMRITEEEkFhIjJxocHx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQADBP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/AMizabkZkN4E0H4qadu7FwhljnnX99VZ0rbDuR40utUy51GYfHleZa58lYa6MZvbNz2hj3iirJ9N3TZSCS7U1RT0MR2rySfkIudnNMJecscy4TRUMOCqZ+ft+6rFKYoqt8jn1zRSbf00UF//2Q=="
     },
     "landscape-8": {
       "name": "landscape-8",
@@ -1615,7 +1691,8 @@
           "https://s3.dalen.ch/landscape-8-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQH/xAAhEAACAgICAQUAAAAAAAAAAAAAAQIDBBESIQUTIjJBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEAAwAAAAAAAAAAAAAAAAABERIh/9oADAMBAAIRAxEAPwC1X5JuKWytmTdib7M/Ds9ybe2czc1JN7CdVrY6m+mDPsyrJTb5NfiYLk1qT17Ia4ya6+iGycpfJtgGWogYAA//2Q=="
     },
     "landscape-80": {
       "name": "landscape-80",
@@ -1636,7 +1713,8 @@
           "https://s3.dalen.ch/landscape-80-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUG/8QAIhAAAgICAQMFAAAAAAAAAAAAAQMAAgQRIQUSUTEyYYHh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDQOctCyxltVEkv6+BUhOOd+bn0+hHVc/CUkh1q3uPbSp5/JksjMLbHs3Wu+BvfEEhKGRlMe0sa4mx+daiRu7zE3Vj/2Q=="
     },
     "landscape-81": {
       "name": "landscape-81",
@@ -1657,7 +1735,8 @@
           "https://s3.dalen.ch/landscape-81-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAgEAACAgICAgMAAAAAAAAAAAABAgARAwQSIQUTMUGB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFh/9oADAMBAAIRAxEAPwDndZ39WQ4yWI4imF1ZmtjK+TFZwFT8X31G9TdZWDKwsXHT5VnXi6I35MrhUBRYsuov6IJhKr5tZmttXGTCKtf/2Q=="
     },
     "landscape-82": {
       "name": "landscape-82",
@@ -1678,7 +1757,8 @@
           "https://s3.dalen.ch/landscape-82-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAMEAQIG/8QALBAAAgECAwMNAQAAAAAAAAAAAQIAAxESIUEEEzEFIjIzNEJRUnFzgYKRsf/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAARATH/2gAMAwEAAhEDEQA/AObKEspbm30mK4wsCRx4eBEdTK71w7hiM76XGkKKKKgCeW+YuAZCalxH8hK9ppEVmG5RwO8Mrwiu4DTbK1PDh0GRjVdHIUo6voW1+NY+v1resn2bp7L9v4YRj1tQ3lWniWkhsSOJhHcldnf3GhGDdmv/2Q=="
     },
     "landscape-83": {
       "name": "landscape-83",
@@ -1699,7 +1779,8 @@
           "https://s3.dalen.ch/landscape-83-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EACQQAAIBBAECBwAAAAAAAAAAAAECAwAEBREhMUESIlFxcoGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABgRAQADAQAAAAAAAAAAAAAAAAABEkEh/9oADAMBAAIRAxEAPwBtsZLKFUyVwpfflIUnajtvvSRf2XUTNr4msb3GSXUquXWQKNDxcEfnWgyYMEs0rTh2YkLE6gewodw4rphydk7ErKCAdelVcI42JGZXjL6PBaUKfsVUwf/Z"
     },
     "landscape-84": {
       "name": "landscape-84",
@@ -1720,7 +1801,8 @@
           "https://s3.dalen.ch/landscape-84-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EACQQAAICAgEBCQAAAAAAAAAAAAECAxEABCESExUiIzFBUXGx/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8AgOug04nE7iRj4hXA9cfV1hK6iWeQAjkqLF1l2mJGgg15Y3EcQLG14Y3x+5p5kYZQTGt+wq8zVKwGXuaEgHtpOR9YY6bEijpBU18thgak4v/Z"
     },
     "landscape-85": {
       "name": "landscape-85",
@@ -1741,7 +1823,8 @@
           "https://s3.dalen.ch/landscape-85-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwYE/8QAJRAAAgEDBAEEAwAAAAAAAAAAAQIAAwURBBIhMUEVcYHhkcHR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AGl81raS3O9JitRmCqfn+Tme6Br1oxuxSelzz5br9Sm8vSuOgDUWO+k27afIxzFehakdTTaspIVTjx11A2qupHDA+O4TIprKtEFFY4yT+TCA3WxIhO2s2Cu3kSv0EKdwrjIz2n3HZ7kTAVraMDmqh9qf3CNIQP/Z"
     },
     "landscape-86": {
       "name": "landscape-86",
@@ -1762,7 +1845,8 @@
           "https://s3.dalen.ch/landscape-86-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAlEAACAQMDAgcAAAAAAAAAAAABAgMABBEFEiETMSJBQnGBwdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Amxcy6bCsQZSBtY+QwfemZJgYwvAZBu2jGR+0pp0JkN3GcEpO3hHdqbuLIR2xL8OxO1UPJ+aCqz6Re6EkUZInbHHYEA/dFZjXBtJ5o3O5iwOSMekUUH//2Q=="
     },
     "landscape-87": {
       "name": "landscape-87",
@@ -1783,7 +1867,8 @@
           "https://s3.dalen.ch/landscape-87-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAUEBgECA//EACUQAAIBBAICAAcAAAAAAAAAAAECAwAEESEFEiIxBjJBUVKh8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDrbKJJ5znSsq62PX3qU0ayoGB+pxSVJ723tjJZqCzuS/iCBj+NRrnmrswoUuGEhx2HUa/VBcIM9PIbzvdFUdOR5KQFheSe/wA8UUDzjbdmUxyBlXJOcYIrM3w/HIT1nYZOcMoNOa2FApj4V1X5o2J9lhuinQ9UUH//2Q=="
     },
     "landscape-88": {
       "name": "landscape-88",
@@ -1804,7 +1889,8 @@
           "https://s3.dalen.ch/landscape-88-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAUGBAMH/8QAKxAAAQMDAwIDCQAAAAAAAAAAAQIDBAARIQUSIkFRBjRzIzEyNmFxcrHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBh4hnuQoZLO5LizZKwAQmpV/XZ0hLSVvKCUCytnEnoc/an3ibVGWQuEW0vKUnlkjYehqUbIRZe1Kgb4ULg0HoWly0yoLbiUOgWA5i5OO/WiowyHIyilt4tJVy2byLXHYGig2a5Hfl64+UsEJSn40pNikD3/XtWBuK7KMaMi3tbC5xbJzV5P8u96ZpEr5hb9L+VAh1SYy9MNmS0G0huwAzbFzRXKd5g/iP1RVH/2Q=="
     },
     "landscape-89": {
       "name": "landscape-89",
@@ -1825,7 +1911,8 @@
           "https://s3.dalen.ch/landscape-89-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQFBgcD/8QAJxAAAgEDAwQBBQEAAAAAAAAAAQIDAAQRBRIhEzFBgWEzQ1FxctH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AsF7fJaRCVuY2Bw4PAPj1Udp+ti7LM6vGgbJOMg+Ao8AeeahNfug11JHD0yO7vCCMnnIPNJWjKsDAdUzBwU2ONo+cHuaDQopVkQMhyp7H80UhbPd9ECRZiRxnaoz6ooKLeX73Eh8E53Eef8pvS9SlssInSIJ3AsuSpPBwf1UMe3uu0P2/6oNBi1OCRN3URfgmiq5B9P2aKD//2Q=="
     },
     "landscape-9": {
       "name": "landscape-9",
@@ -1846,7 +1933,8 @@
           "https://s3.dalen.ch/landscape-9-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAIEAQMGBf/EAB8QAQACAgMBAAMAAAAAAAAAAAEAAgMRBBIhMQVRsf/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AOnrMytk5eLDVbXBB8/epqtz8aYuuSha3qLGGrrEgXLAj4/ImDl/yuVq99FujsH03skMvNzWz8kWum3VNfQ1r+xE61Ee/wAC1ni1LWbdVNrtiIkKf//Z"
     },
     "landscape-90": {
       "name": "landscape-90",
@@ -1867,7 +1955,8 @@
           "https://s3.dalen.ch/landscape-90-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABAACBQP/xAAoEAACAQQBAgQHAAAAAAAAAAABAgMABBESBSFBEzEzcjRxdKGywdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Ad4TJENoIUTOoDMQKPdR2qRnSAlj0yjsRSbtpJbUhHBI6jUdx1H3rUMdnOiyAvlwGxse9AKMWRQbwkH3N/aq6i8dEwypcD3Gqg5R5GLwyojlzjGNcfutcKyi2lbXXadgo8+wNEsfI0/j/AE5PqG/Cg873kmhkREC40GenfJqoHI/FH5Cqg//Z"
     },
     "landscape-91": {
       "name": "landscape-91",
@@ -1888,7 +1977,8 @@
           "https://s3.dalen.ch/landscape-91-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAlEAACAQMDAgcAAAAAAAAAAAABAgMABBEFElETMRQhIkJhgcH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3ZdoG5nUDkmooyswPTbODjikg0Z/I3U+7HtQdvurAsbOzjMrRu4QZ9RL4HwKBfDqe7UUJqliVyiPg8RN+Cig/9k="
     },
     "landscape-92": {
       "name": "landscape-92",
@@ -1909,7 +1999,8 @@
           "https://s3.dalen.ch/landscape-92-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAQL/xAAiEAABAwQBBQEAAAAAAAAAAAABAAIDBAURITESEyNBUYH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AZwXKhcQ1s4PGDjRW3Gvp4KdzhJlwxr9Ua+jnYfHtrjrHpdyw1TmEEE6HOkDae6xCU9DCR9LsIU8e5k6IQg//2Q=="
     },
     "landscape-93": {
       "name": "landscape-93",
@@ -1930,7 +2021,8 @@
           "https://s3.dalen.ch/landscape-93-1600w.jpeg 1600w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACEQAAICAgEEAwAAAAAAAAAAAAECAxEABCEFEjFRItHh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AF9fqEcjOO1j8uLoUMZZ4GRizha83mY1tho5DRIB85T1Y9neJjjWowKZmNAfuA5HBDOC4V25r1hlBdWONQhjuvRP3hgf/9k="
     }
   },
   "pano": {
@@ -1951,7 +2043,8 @@
           "https://s3.dalen.ch/pano-1-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABwQAAEEAwEAAAAAAAAAAAAAAAABAgQhAzGRMv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwB6Nmx1TuFBkhiJTXcIsbSFHEaDSyr8P4Bi7YCLX//Z"
     },
     "pano-10": {
       "name": "pano-10",
@@ -1970,7 +2063,8 @@
           "https://s3.dalen.ch/pano-10-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAIRAAAQMEAQUAAAAAAAAAAAAAAQACAwQFERIhBhYxcZL/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAIRAf/aAAwDAQACEQMRAD8AzbZfJ6KDVjtmA5LXtzj0VZ3TWEEgxsJ8N14RET00mPVtwB4kHyERE6Mf/9k="
     },
     "pano-11": {
       "name": "pano-11",
@@ -1989,7 +2083,8 @@
           "https://s3.dalen.ch/pano-11-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQB/8QAIBAAAQIGAwEAAAAAAAAAAAAAAAECAwQGESFyEhYiYv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCGHUk95ReF1+ShtUzSJlsNV1AHRY3s887LWwragAtD/9k="
     },
     "pano-12": {
       "name": "pano-12",
@@ -2008,7 +2103,8 @@
           "https://s3.dalen.ch/pano-12-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAhEAABAwMEAwAAAAAAAAAAAAACAAERAwQFEiEiQROB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AqXdtlCNnsgs3CGkagTv3E9KfcYrJlWerUo09bty8TsIv6lERALfKBIiPFn2km+oiIj//2Q=="
     },
     "pano-13": {
       "name": "pano-13",
@@ -2027,7 +2123,8 @@
           "https://s3.dalen.ch/pano-13-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EACAQAAEEAQQDAAAAAAAAAAAAAAIAAQMEEgURMUEGITL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AhFrByWnri4M7d4dqxX1SSfLCQdg53BEVILMu+QWY7JBGQ4j6+OURENJ//9k="
     },
     "pano-14": {
       "name": "pano-14",
@@ -2046,7 +2143,8 @@
           "https://s3.dalen.ch/pano-14-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIDBf/EAB8QAAICAQQDAAAAAAAAAAAAAAECAAMFBBESIUFCkf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFxEBAQEBAAAAAAAAAAAAAAAAACEBAv/aAAwDAQACEQMRAD8Ayzl9QzO6Fl5sTsG6MvpzWsStldgQe9/MRDkPq3UrM5Zy9vsRESb/2Q=="
     },
     "pano-15": {
       "name": "pano-15",
@@ -2065,7 +2163,8 @@
           "https://s3.dalen.ch/pano-15-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAHhAAAgEEAwEAAAAAAAAAAAAAAAECBAUhkQMGEqH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAAMBAQAAAAAAAAAAAAAAAAACUQES/9oADAMBAAIRAxEAPwDFjd+ZPD+FY3yoTx50AOosHHYsuwVSWFDTAAcLC+2p/9k="
     },
     "pano-16": {
       "name": "pano-16",
@@ -2084,7 +2183,8 @@
           "https://s3.dalen.ch/pano-16-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBv/EAB4QAAICAgIDAAAAAAAAAAAAAAECAAMEERIhE1Fx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM6mS3Abd/hOxoSUZF/idarW6PIjfQERArWZNjNsOw69xEQP/9k="
     },
     "pano-17": {
       "name": "pano-17",
@@ -2103,7 +2203,8 @@
           "https://s3.dalen.ch/pano-17-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EACAQAAICAgICAwAAAAAAAAAAAAECAAMEERNBBSEUMXH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAhL/2gAMAwEAAhEDEQA/AI8lSRjbRa+SwABuyP2U3YPwWptqbjfYIRvYBP2NjqIkRqpYmZi3LkuXQbYlvRHZiIjNMeS//9k="
     },
     "pano-18": {
       "name": "pano-18",
@@ -2122,7 +2223,8 @@
           "https://s3.dalen.ch/pano-18-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQB/8QAIBAAAQQCAQUAAAAAAAAAAAAAAQACAxEEEgUUIUGBkf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oADAMBAAIRAxEAPwDIs6QNO8hDgTYs9q9KjqZy0azfURIsZTv5fIjcWiS68oiJ1rC//9k="
     },
     "pano-2": {
       "name": "pano-2",
@@ -2141,7 +2243,8 @@
           "https://s3.dalen.ch/pano-2-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGA//EACIQAAEDAwMFAAAAAAAAAAAAAAEAAgQDEZEFITISUVKBov/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AN4uo3G9H6CfZOaRvTI9hSEdzu5yn2OdbkcpSKIzKd+DshCn+p3kcoULf//Z"
     },
     "pano-3": {
       "name": "pano-3",
@@ -2160,7 +2263,8 @@
           "https://s3.dalen.ch/pano-3-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUG/8QAHhAAAgICAgMAAAAAAAAAAAAAAQMAAgURBCExMmH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALrn0Ui7CPUb7mSyGcc62lk0HgCp1EQrSMzlOZc2swk/SYiJaH//2Q=="
     },
     "pano-4": {
       "name": "pano-4",
@@ -2179,7 +2283,8 @@
           "https://s3.dalen.ch/pano-4-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAQFBv/EAB8QAAICAgEFAAAAAAAAAAAAAAABAgMEEVEFEyFBkf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAAzH/2gAMAwEAAhEDEQA/AK3p1V0dyoyFU+PLNLh5M3Su+oSlzFa2AZyV7WoHKQ8lekvgAFiv/9k="
     },
     "pano-5": {
       "name": "pano-5",
@@ -2198,7 +2303,8 @@
           "https://s3.dalen.ch/pano-5-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBv/EACEQAAEDAgcBAAAAAAAAAAAAAAABAgUDEhETFSEjUWGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEAAwAAAAAAAAAAAAAAAAAAATFB/9oADAMBAAIRAxEAPwCjGy0gr0ZnX937mioyNRGcjmq7xuABcUNS6gvnwAAp/9k="
     },
     "pano-6": {
       "name": "pano-6",
@@ -2217,7 +2323,8 @@
           "https://s3.dalen.ch/pano-6-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAgEAACAgIABwAAAAAAAAAAAAAAAQIEERITISIkYpGS/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCZUsc1tGMl6Zaq2odOtZyz5IA3dSKHHWF2r+0ABdH/2Q=="
     },
     "pano-7": {
       "name": "pano-7",
@@ -2236,7 +2343,8 @@
           "https://s3.dalen.ch/pano-7-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAYF/8QAHRAAAgICAwEAAAAAAAAAAAAAAAEDBAIREzGRYv/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCkkkjS3p+GfZsQpdZeAE1PWrsvM+OKNY/TbYAFAr//2Q=="
     },
     "pano-8": {
       "name": "pano-8",
@@ -2255,7 +2363,8 @@
           "https://s3.dalen.ch/pano-8-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBf/EAB8QAAICAgEFAAAAAAAAAAAAAAECAAMEERQhIlFhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARARL/2gAMAwEAAhEDEQA/AJrTnEd2e5HzUz76HZ9te7HyepiJrnNVilkcdbSEdwPY3ERChH//2Q=="
     },
     "pano-9": {
       "name": "pano-9",
@@ -2274,7 +2383,8 @@
           "https://s3.dalen.ch/pano-9-2000w.jpeg 2000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAIhAAAgIBAQkAAAAAAAAAAAAAAQIAAwYEERITIjFBYcHR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AKqyShECtc9h7twtnuacjodTzup81/DESpgUNU1wFlVoKHod0xEQTX//2Q=="
     }
   },
   "hero-image": {
@@ -2293,7 +2403,8 @@
           "https://s3.dalen.ch/hero-image-1-2400w.jpeg 2400w"
         ]
       },
-      "sizes": "100vw"
+      "sizes": "100vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQb/xAAjEAACAgIBAgcAAAAAAAAAAAABAgADBBEFITESIkFCUWGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANxMjGtHlLhh3UqdxxMuhPe6/hnMjk8piPEeo9ddZRF5ZFNquCQDsdoFNuSoB0C5+4RavEFiBkuXR+RCB//Z"
     }
   },
   "about": {
@@ -2314,7 +2425,8 @@
           "https://s3.dalen.ch/about-1-1000w.jpeg 1000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMGBf/EACAQAAICAgEFAQAAAAAAAAAAAAECABEDBAUSITEyYZL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIh/9oADAMBAAIRAxEAPwDUbldNAC+QgXXqe0Yu9pMaGdb+ya2cLYmUqeoXd+InHtAi+nt5JgVsrlFmuTXIsZU/QhJvHyKogUIKHyE00GH/2Q=="
     },
     "about-2": {
       "name": "about-2",
@@ -2333,7 +2445,8 @@
           "https://s3.dalen.ch/about-2-1000w.jpeg 1000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQABA//EACkQAAEEAgAEBAcAAAAAAAAAAAEAAgMREiEEBSIxE0Fh0TIzQlGBkZL/xAAYAQACAwAAAAAAAAAAAAAAAAABAwACBP/EABkRAQEBAAMAAAAAAAAAAAAAAAABEgIRIf/aAAwDAQACEQMRAD8ARkgZIc8gHGt3YPstijNWNgeaGk5yWtyidiR9Dx8Xsu8HOWeG10rMX+YGwCnTkpYYDddh+1Id3OWF3TG7+iFKegHME7RRbYYcnURorZcr+WWOLbFgiksRkyQu2TJR/BC7cNG2XhY8xevus2jugOTD2v1shSTkjZmehuvRSO6GY//Z"
     },
     "about-3": {
       "name": "about-3",
@@ -2352,7 +2465,8 @@
           "https://s3.dalen.ch/about-3-1000w.jpeg 1000w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAeABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EACYQAAIBBAEDAwUAAAAAAAAAAAECAwAEESExBRJBEyJiUWFxkdH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAZEQEBAQEBAQAAAAAAAAAAAAAAARIREyH/2gAMAwEAAhEDEQA/ANqXqShT6cZLfKoJbq4uXMLOfkFGMf2kSSEkKe5wT48aqe5ma3UqsgDuBnewPxU9tPxbN1iCB/TaFHYc9uMD7UVm26IYgUtnlB5bWz+6KMw9qwHznApLTI2VYAAgje87pK3XtOBihrgHOV4qfSJNjZLZBGit28jC/WikSNESMxA6orbjaf/Z"
     }
   },
   "self": {
@@ -2373,7 +2487,8 @@
           "https://s3.dalen.ch/self-1-1200w.jpeg 1200w"
         ]
       },
-      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      "sizes": "(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw",
+      "placeholder": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAZABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAQFBgEC/8QAJRAAAgEEAQQBBQAAAAAAAAAAAQIAAwQFIRESEzFBYSIycYGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AL++aqlq5osqOddbDkL8ylxF1dDJNZ3N2LtWQsG446WHofqTsvnLSxpvTFQVLga7a74PyfUz9DN0LTMPXZO7QdT0lNspJ2d+9bEDWldxIVHN46unWt0ijxw/0n+GIGAqVGeozseWY8kn2ZwHjej+Z5b74PiAiB4iB//Z"
     }
   }
 }
